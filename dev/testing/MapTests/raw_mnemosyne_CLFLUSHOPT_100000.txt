@@ -1,0 +1,1260 @@
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5185.1s Wall Time: 186.9s
+Total commit 4272337, abort (total/fake) 26727663/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.1929s Wall Time: 2.1929s
+Total commit 165493, abort (total/fake) 834507/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2639.7s Wall Time: 114.16s
+Total commit 3312152, abort (total/fake) 20687848/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 17.128s Wall Time: 4.324s
+Total commit 575877, abort (total/fake) 3424123/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.91844s Wall Time: 0.91844s
+Total commit 672870, abort (total/fake) 327130/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.85776s Wall Time: 0.85775s
+Total commit 672817, abort (total/fake) 327183/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 18.608s Wall Time: 4.6692s
+Total commit 576151, abort (total/fake) 3423849/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 4832s Wall Time: 176.73s
+Total commit 4274829, abort (total/fake) 26725171/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.3284s Wall Time: 1.1666s
+Total commit 1410606, abort (total/fake) 589394/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 4961.4s Wall Time: 182.32s
+Total commit 4276520, abort (total/fake) 26723480/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2723.2s Wall Time: 117.93s
+Total commit 3316133, abort (total/fake) 20683867/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.6353s Wall Time: 1.684s
+Total commit 2932782, abort (total/fake) 1067218/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 106.39s Wall Time: 13.43s
+Total commit 1124473, abort (total/fake) 6875527/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 277.7s Wall Time: 17.397s
+Total commit 12145396, abort (total/fake) 3854604/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 277.26s Wall Time: 17.389s
+Total commit 12134068, abort (total/fake) 3865932/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 274.99s Wall Time: 17.284s
+Total commit 12134542, abort (total/fake) 3865458/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.3467s Wall Time: 1.1738s
+Total commit 1411357, abort (total/fake) 588643/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2078.2s Wall Time: 76.271s
+Total commit 23636226, abort (total/fake) 7363774/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1171.3s Wall Time: 50.514s
+Total commit 18263221, abort (total/fake) 5736779/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.174s Wall Time: 4.1932s
+Total commit 5997117, abort (total/fake) 2002883/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5.3534s Wall Time: 2.6845s
+Total commit 303213, abort (total/fake) 1696787/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.92969s Wall Time: 0.92968s
+Total commit 673900, abort (total/fake) 326100/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 4839.5s Wall Time: 176.92s
+Total commit 4272770, abort (total/fake) 26727230/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 277.86s Wall Time: 17.419s
+Total commit 12127567, abort (total/fake) 3872433/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5068.2s Wall Time: 183.48s
+Total commit 4272003, abort (total/fake) 26727997/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.47s Wall Time: 4.2255s
+Total commit 6000835, abort (total/fake) 1999165/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.2217s Wall Time: 2.2217s
+Total commit 166177, abort (total/fake) 833823/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.9303s Wall Time: 0.93029s
+Total commit 673428, abort (total/fake) 326572/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 109.95s Wall Time: 13.845s
+Total commit 1124010, abort (total/fake) 6875990/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 276.13s Wall Time: 17.31s
+Total commit 12136786, abort (total/fake) 3863214/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5.4536s Wall Time: 2.7375s
+Total commit 302401, abort (total/fake) 1697599/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.3767s Wall Time: 3.1925s
+Total commit 303684, abort (total/fake) 1696316/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 274.02s Wall Time: 17.2s
+Total commit 12132083, abort (total/fake) 3867917/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 18.294s Wall Time: 4.601s
+Total commit 577365, abort (total/fake) 3422635/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2797.9s Wall Time: 121.09s
+Total commit 3316019, abort (total/fake) 20683981/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.93564s Wall Time: 0.93564s
+Total commit 673188, abort (total/fake) 326812/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1191.2s Wall Time: 51.394s
+Total commit 18274550, abort (total/fake) 5725450/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2236.5s Wall Time: 80.316s
+Total commit 23627699, abort (total/fake) 7372301/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.1496s Wall Time: 2.1496s
+Total commit 166039, abort (total/fake) 833961/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1129s Wall Time: 48.721s
+Total commit 18275811, abort (total/fake) 5724189/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 4891.5s Wall Time: 178.64s
+Total commit 4273294, abort (total/fake) 26726706/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.92411s Wall Time: 0.92412s
+Total commit 671952, abort (total/fake) 328048/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2214.4s Wall Time: 80.113s
+Total commit 23631267, abort (total/fake) 7368733/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.4675s Wall Time: 1.6232s
+Total commit 2934938, abort (total/fake) 1065062/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.84956s Wall Time: 0.84953s
+Total commit 673729, abort (total/fake) 326271/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 746.12s Wall Time: 46.737s
+Total commit 2221037, abort (total/fake) 13778963/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5.4337s Wall Time: 2.7392s
+Total commit 303188, abort (total/fake) 1696812/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.92544s Wall Time: 0.92545s
+Total commit 674039, abort (total/fake) 325961/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.1356s Wall Time: 1.0679s
+Total commit 1409665, abort (total/fake) 590335/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2265.2s Wall Time: 81.41s
+Total commit 23631975, abort (total/fake) 7368025/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.2074s Wall Time: 1.1074s
+Total commit 1411563, abort (total/fake) 588437/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2668.6s Wall Time: 115.45s
+Total commit 3314739, abort (total/fake) 20685261/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2700.2s Wall Time: 116.95s
+Total commit 3315525, abort (total/fake) 20684475/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2309.6s Wall Time: 82.315s
+Total commit 23628992, abort (total/fake) 7371008/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2629.8s Wall Time: 113.81s
+Total commit 3314954, abort (total/fake) 20685046/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.912s Wall Time: 4.2728s
+Total commit 6000487, abort (total/fake) 1999513/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.374s Wall Time: 4.2208s
+Total commit 6000426, abort (total/fake) 1999574/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.2318s Wall Time: 1.1177s
+Total commit 1410880, abort (total/fake) 589120/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.6192s Wall Time: 2.6193s
+Total commit 165585, abort (total/fake) 834415/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.87236s Wall Time: 0.87231s
+Total commit 673475, abort (total/fake) 326525/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 730.8s Wall Time: 45.87s
+Total commit 2219626, abort (total/fake) 13780374/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1176.9s Wall Time: 50.68s
+Total commit 18265006, abort (total/fake) 5734994/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 4989.5s Wall Time: 181.14s
+Total commit 4268409, abort (total/fake) 26731591/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2615.3s Wall Time: 113.47s
+Total commit 3311001, abort (total/fake) 20688999/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 749.31s Wall Time: 46.963s
+Total commit 2218505, abort (total/fake) 13781495/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 281.71s Wall Time: 17.666s
+Total commit 12133282, abort (total/fake) 3866718/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2234.6s Wall Time: 80.91s
+Total commit 23621118, abort (total/fake) 7378882/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.258s Wall Time: 4.2022s
+Total commit 6000143, abort (total/fake) 1999857/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.5226s Wall Time: 1.6386s
+Total commit 2934477, abort (total/fake) 1065523/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 741.66s Wall Time: 46.564s
+Total commit 2219715, abort (total/fake) 13780285/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 34.441s Wall Time: 4.3434s
+Total commit 6000539, abort (total/fake) 1999461/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 108.94s Wall Time: 13.71s
+Total commit 1124573, abort (total/fake) 6875427/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 4882.2s Wall Time: 179.72s
+Total commit 4274305, abort (total/fake) 26725695/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1174.3s Wall Time: 50.538s
+Total commit 18272815, abort (total/fake) 5727185/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.4207s Wall Time: 1.6108s
+Total commit 2932057, abort (total/fake) 1067943/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5328.6s Wall Time: 191.77s
+Total commit 4270815, abort (total/fake) 26729185/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 18.082s Wall Time: 4.5627s
+Total commit 577371, abort (total/fake) 3422629/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.3541s Wall Time: 1.5995s
+Total commit 2932773, abort (total/fake) 1067227/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.4931s Wall Time: 1.6339s
+Total commit 2934911, abort (total/fake) 1065089/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2663.5s Wall Time: 115.2s
+Total commit 3311823, abort (total/fake) 20688177/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 0.9426s Wall Time: 0.94262s
+Total commit 673520, abort (total/fake) 326480/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 747.04s Wall Time: 46.843s
+Total commit 2222566, abort (total/fake) 13777434/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 108.68s Wall Time: 13.694s
+Total commit 1125268, abort (total/fake) 6874732/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 273.32s Wall Time: 17.162s
+Total commit 12129886, abort (total/fake) 3870114/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5282.3s Wall Time: 188.56s
+Total commit 4271697, abort (total/fake) 26728303/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.3355s Wall Time: 1.6025s
+Total commit 2935839, abort (total/fake) 1064161/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2273.2s Wall Time: 81.562s
+Total commit 23624223, abort (total/fake) 7375777/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2251.3s Wall Time: 81.194s
+Total commit 23638274, abort (total/fake) 7361726/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2670.5s Wall Time: 115.92s
+Total commit 3314722, abort (total/fake) 20685278/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2336.1s Wall Time: 83.235s
+Total commit 23640470, abort (total/fake) 7359530/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2730.8s Wall Time: 118.33s
+Total commit 3311153, abort (total/fake) 20688847/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 274.82s Wall Time: 17.278s
+Total commit 12136771, abort (total/fake) 3863229/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 741.46s Wall Time: 46.625s
+Total commit 2220334, abort (total/fake) 13779666/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 278.92s Wall Time: 17.48s
+Total commit 12130309, abort (total/fake) 3869691/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1167.8s Wall Time: 50.282s
+Total commit 18257355, abort (total/fake) 5742645/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.947s Wall Time: 4.2821s
+Total commit 5999268, abort (total/fake) 2000732/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 748.9s Wall Time: 46.88s
+Total commit 2217075, abort (total/fake) 13782925/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 107.36s Wall Time: 13.546s
+Total commit 1123125, abort (total/fake) 6876875/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.018s Wall Time: 4.1646s
+Total commit 6001823, abort (total/fake) 1998177/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 31 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2090.3s Wall Time: 76.626s
+Total commit 23634513, abort (total/fake) 7365487/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.18s Wall Time: 4.1874s
+Total commit 6002112, abort (total/fake) 1997888/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1185.4s Wall Time: 51.084s
+Total commit 18262595, abort (total/fake) 5737405/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 33.829s Wall Time: 4.2793s
+Total commit 5998840, abort (total/fake) 2001160/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.2842s Wall Time: 1.1461s
+Total commit 1410960, abort (total/fake) 589040/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 17.899s Wall Time: 4.514s
+Total commit 576217, abort (total/fake) 3423783/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 18.126s Wall Time: 4.5649s
+Total commit 576547, abort (total/fake) 3423453/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1171.2s Wall Time: 50.449s
+Total commit 18263745, abort (total/fake) 5736255/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 18.258s Wall Time: 4.6053s
+Total commit 576783, abort (total/fake) 3423217/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5.3803s Wall Time: 2.7126s
+Total commit 303190, abort (total/fake) 1696810/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 110.74s Wall Time: 13.961s
+Total commit 1125913, abort (total/fake) 6874087/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 107.71s Wall Time: 13.568s
+Total commit 1125724, abort (total/fake) 6874276/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.3997s Wall Time: 3.2371s
+Total commit 302678, abort (total/fake) 1697322/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.2071s Wall Time: 2.2071s
+Total commit 166324, abort (total/fake) 833676/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.6361s Wall Time: 2.6361s
+Total commit 166122, abort (total/fake) 833878/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1167.2s Wall Time: 50.333s
+Total commit 18268513, abort (total/fake) 5731487/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.2667s Wall Time: 3.1358s
+Total commit 302874, abort (total/fake) 1697126/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 107.99s Wall Time: 13.584s
+Total commit 1126129, abort (total/fake) 6873871/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 759.3s Wall Time: 47.561s
+Total commit 2219301, abort (total/fake) 13780699/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.2832s Wall Time: 1.1492s
+Total commit 1410375, abort (total/fake) 589625/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 109.45s Wall Time: 13.772s
+Total commit 1122700, abort (total/fake) 6877300/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.4043s Wall Time: 1.6147s
+Total commit 2935931, abort (total/fake) 1064069/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 18.695s Wall Time: 4.72s
+Total commit 576560, abort (total/fake) 3423440/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 106.94s Wall Time: 13.503s
+Total commit 1125262, abort (total/fake) 6874738/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.5197s Wall Time: 1.6403s
+Total commit 2932410, abort (total/fake) 1067590/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.2859s Wall Time: 1.1438s
+Total commit 1411829, abort (total/fake) 588171/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.1121s Wall Time: 1.0665s
+Total commit 1410553, abort (total/fake) 589447/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 18.388s Wall Time: 4.657s
+Total commit 578345, abort (total/fake) 3421655/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 24 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1146.5s Wall Time: 49.477s
+Total commit 18278321, abort (total/fake) 5721679/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.4404s Wall Time: 1.6203s
+Total commit 2933975, abort (total/fake) 1066025/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 8% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.2958s Wall Time: 1.1492s
+Total commit 1411484, abort (total/fake) 588516/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5.4747s Wall Time: 2.7598s
+Total commit 303273, abort (total/fake) 1696727/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 18.409s Wall Time: 4.6235s
+Total commit 575743, abort (total/fake) 3424257/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 740.93s Wall Time: 46.567s
+Total commit 2221105, abort (total/fake) 13778895/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 6.4343s Wall Time: 3.2317s
+Total commit 303184, abort (total/fake) 1696816/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.1578s Wall Time: 2.1578s
+Total commit 166473, abort (total/fake) 833527/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 747.43s Wall Time: 46.826s
+Total commit 2216961, abort (total/fake) 13783039/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 5.3928s Wall Time: 2.7136s
+Total commit 302836, abort (total/fake) 1697164/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.5281s Wall Time: 2.5281s
+Total commit 166331, abort (total/fake) 833669/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.1657s Wall Time: 2.1657s
+Total commit 165755, abort (total/fake) 834245/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 100000 unique keys 70% insert 2% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2.5641s Wall Time: 2.5641s
+Total commit 165718, abort (total/fake) 834282/0
+

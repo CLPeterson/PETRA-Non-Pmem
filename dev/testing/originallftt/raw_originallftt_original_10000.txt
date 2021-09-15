@@ -1,0 +1,280 @@
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 191.7s Wall Time: 4.0671s
+Total commit 3231108, abort (total/fake) 1568892/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 51.845s Wall Time: 3.2775s
+Total commit 801104, abort (total/fake) 798896/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 5.6954s Wall Time: 2.8632s
+Total commit 100690, abort (total/fake) 99310/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 461.39s Wall Time: 4.8826s
+Total commit 4801097, abort (total/fake) 4798903/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 462.72s Wall Time: 4.8861s
+Total commit 6474503, abort (total/fake) 3125497/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 12.298s Wall Time: 3.0876s
+Total commit 266023, abort (total/fake) 133977/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 12.457s Wall Time: 3.1314s
+Total commit 200631, abort (total/fake) 199369/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 1.9808s Wall Time: 1.9808s
+Total commit 50973, abort (total/fake) 49027/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 12.322s Wall Time: 3.0904s
+Total commit 200856, abort (total/fake) 199144/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 464.29s Wall Time: 4.8961s
+Total commit 6471050, abort (total/fake) 3128950/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 1.8747s Wall Time: 1.8747s
+Total commit 64306, abort (total/fake) 35694/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 461.87s Wall Time: 4.8836s
+Total commit 6474888, abort (total/fake) 3125112/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 5.6292s Wall Time: 2.8341s
+Total commit 130828, abort (total/fake) 69172/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 52.114s Wall Time: 3.2925s
+Total commit 799256, abort (total/fake) 800744/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 5.6344s Wall Time: 2.8346s
+Total commit 130432, abort (total/fake) 69568/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 191.77s Wall Time: 4.0572s
+Total commit 3237752, abort (total/fake) 1562248/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 12.379s Wall Time: 3.1239s
+Total commit 200181, abort (total/fake) 199819/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 12.162s Wall Time: 3.0482s
+Total commit 265212, abort (total/fake) 134788/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 52.823s Wall Time: 3.3319s
+Total commit 800027, abort (total/fake) 799973/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 25.08s Wall Time: 3.1607s
+Total commit 401529, abort (total/fake) 398471/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 52.373s Wall Time: 3.3013s
+Total commit 801736, abort (total/fake) 798264/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 12.43s Wall Time: 3.121s
+Total commit 201494, abort (total/fake) 198506/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 5.7461s Wall Time: 2.892s
+Total commit 131339, abort (total/fake) 68661/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 193.04s Wall Time: 4.0874s
+Total commit 3235536, abort (total/fake) 1564464/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 458.63s Wall Time: 4.8361s
+Total commit 4800721, abort (total/fake) 4799279/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 192.02s Wall Time: 4.0626s
+Total commit 2404039, abort (total/fake) 2395961/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 5.6866s Wall Time: 2.8784s
+Total commit 100733, abort (total/fake) 99267/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 24.908s Wall Time: 3.1429s
+Total commit 400563, abort (total/fake) 399437/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 25.048s Wall Time: 3.1529s
+Total commit 400686, abort (total/fake) 399314/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 5.8049s Wall Time: 2.9158s
+Total commit 130606, abort (total/fake) 69394/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 52.069s Wall Time: 3.2886s
+Total commit 801806, abort (total/fake) 798194/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 12.305s Wall Time: 3.0847s
+Total commit 264306, abort (total/fake) 135694/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 1.7604s Wall Time: 1.7604s
+Total commit 63698, abort (total/fake) 36302/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 24.967s Wall Time: 3.1497s
+Total commit 534795, abort (total/fake) 265205/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 25.157s Wall Time: 3.1681s
+Total commit 400644, abort (total/fake) 399356/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 461.88s Wall Time: 4.8687s
+Total commit 6475889, abort (total/fake) 3124111/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 5.8641s Wall Time: 2.9338s
+Total commit 100431, abort (total/fake) 99569/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 25.148s Wall Time: 3.1672s
+Total commit 401295, abort (total/fake) 398705/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 5.7102s Wall Time: 2.862s
+Total commit 131218, abort (total/fake) 68782/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 1.7865s Wall Time: 1.7865s
+Total commit 64233, abort (total/fake) 35767/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 12.276s Wall Time: 3.0934s
+Total commit 266402, abort (total/fake) 133598/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 459.93s Wall Time: 4.8478s
+Total commit 4796566, abort (total/fake) 4803434/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 5.8736s Wall Time: 2.9484s
+Total commit 101390, abort (total/fake) 98610/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 12.23s Wall Time: 3.0662s
+Total commit 265718, abort (total/fake) 134282/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 1.9853s Wall Time: 1.9853s
+Total commit 50693, abort (total/fake) 49307/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 192.86s Wall Time: 4.0787s
+Total commit 3236501, abort (total/fake) 1563499/0
+
+Start testing TransList with 4 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 12.352s Wall Time: 3.0993s
+Total commit 200668, abort (total/fake) 199332/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 52.005s Wall Time: 3.2838s
+Total commit 1075024, abort (total/fake) 524976/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 51.676s Wall Time: 3.2714s
+Total commit 1076125, abort (total/fake) 523875/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 1.7516s Wall Time: 1.7517s
+Total commit 63407, abort (total/fake) 36593/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 462.5s Wall Time: 4.9118s
+Total commit 6479387, abort (total/fake) 3120613/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 1.8604s Wall Time: 1.8604s
+Total commit 64244, abort (total/fake) 35756/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 54.322s Wall Time: 3.4309s
+Total commit 1075865, abort (total/fake) 524135/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 190.19s Wall Time: 4.0191s
+Total commit 2401842, abort (total/fake) 2398158/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 1.9605s Wall Time: 1.9605s
+Total commit 50560, abort (total/fake) 49440/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 462.71s Wall Time: 4.8726s
+Total commit 4799962, abort (total/fake) 4800038/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 52.006s Wall Time: 3.286s
+Total commit 1077023, abort (total/fake) 522977/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 1.9867s Wall Time: 1.9867s
+Total commit 50643, abort (total/fake) 49357/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 191.39s Wall Time: 4.0568s
+Total commit 2399691, abort (total/fake) 2400309/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 191.32s Wall Time: 4.059s
+Total commit 3235719, abort (total/fake) 1564281/0
+
+Start testing TransList with 16 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 51.891s Wall Time: 3.284s
+Total commit 1076493, abort (total/fake) 523507/0
+
+Start testing TransList with 2 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 5.9242s Wall Time: 2.9721s
+Total commit 100998, abort (total/fake) 99002/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 191.12s Wall Time: 4.0428s
+Total commit 2401749, abort (total/fake) 2398251/0
+
+Start testing TransList with 48 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 190.68s Wall Time: 4.0335s
+Total commit 2402230, abort (total/fake) 2397770/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 24.917s Wall Time: 3.1433s
+Total commit 537053, abort (total/fake) 262947/0
+
+Start testing TransList with 1 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 2.1303s Wall Time: 2.1303s
+Total commit 50756, abort (total/fake) 49244/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 24.864s Wall Time: 3.1274s
+Total commit 535776, abort (total/fake) 264224/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 25.012s Wall Time: 3.1598s
+Total commit 536136, abort (total/fake) 263864/0
+
+Start testing TransList with 96 threads 100000 iterations 1 txnsize 10000 unique keys 33% insert 33% delete 0% update.
+CPU Time: 462.12s Wall Time: 4.8791s
+Total commit 4801384, abort (total/fake) 4798616/0
+
+Start testing TransList with 8 threads 100000 iterations 1 txnsize 10000 unique keys 15% insert 5% delete 0% update.
+CPU Time: 25.111s Wall Time: 3.169s
+Total commit 535874, abort (total/fake) 264126/0
+

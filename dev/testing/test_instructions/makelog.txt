@@ -1,0 +1,551 @@
+Making clean in src
+make[1]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+Making clean in common/fraser
+make[2]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile/src/common/fraser'
+rm -rf .libs _libs
+test -z "libfd.la" || rm -f libfd.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+make[2]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile/src/common/fraser'
+make[2]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+ rm -f trans transRomulus transOneFile
+rm -rf .libs _libs
+rm -f *.o
+rm -f bench/*.o
+rm -f boostinglist/*.o
+rm -f common/*.o
+rm -f durabletxn/*.o
+rm -f lftt/list/*.o
+rm -f lftt/map/*.o
+rm -f lftt/mdlist/*.o
+rm -f lftt/skiplist/*.o
+rm -f lockfreelist/*.o
+rm -f romulus/commonromulus/*.o
+rm -f romulus/romulus/*.o
+rm -f romulus/romuluslog/*.o
+rm -f romulus/romuluslr/*.o
+rm -f romulus/romulusni/*.o
+rm -f *.lo
+make[2]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+make[1]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+make[1]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile'
+Making all in src
+make[1]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+make  all-recursive
+make[2]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+Making all in common/fraser
+make[3]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile/src/common/fraser'
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -g -O2 -MT libfd_la-gc.lo -MD -MP -MF .deps/libfd_la-gc.Tpo -c -o libfd_la-gc.lo `test -f 'gc.c' || echo '../../../../dev/src/common/fraser/'`gc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=64 -g -O2 -MT libfd_la-gc.lo -MD -MP -MF .deps/libfd_la-gc.Tpo -c ../../../../dev/src/common/fraser/gc.c  -fPIC -DPIC -o .libs/libfd_la-gc.o
+../../../../dev/src/common/fraser/gc.c: In function ‘alloc_more_chunks’:
+../../../../dev/src/common/fraser/gc.c:166:21: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]
+     fprintf(stderr, "OUT OF MEMORY: %d bytes at line %d\n", (_s), __LINE__); \
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~
+../../../../dev/src/common/fraser/gc.c:166:21: note: in definition of macro ‘MEM_FAIL’
+     fprintf(stderr, "OUT OF MEMORY: %d bytes at line %d\n", (_s), __LINE__); \
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../dev/src/common/fraser/portable_defns.h:9,
+                 from ../../../../dev/src/common/fraser/gc.c:31:
+../../../../dev/src/common/fraser/gc.c: In function ‘add_chunks_to_list’:
+../../../../dev/src/common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../dev/src/common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../../../dev/src/common/fraser/gc.c:200:27: note: in expansion of macro ‘CASPO’
+     while ( (new_h_next = CASPO(&head->next, h_next, ch_next)) != h_next );
+                           ^~~~~
+../../../../dev/src/common/fraser/gc.c: In function ‘get_empty_chunks’:
+../../../../dev/src/common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../dev/src/common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../../../dev/src/common/fraser/gc.c:227:23: note: in expansion of macro ‘CASPO’
+     while ( (new_rh = CASPO(&head->next, rh, rt->next)) != rh );
+                       ^~~~~
+../../../../dev/src/common/fraser/gc.c: In function ‘get_alloc_chunk’:
+../../../../dev/src/common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../dev/src/common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../../../dev/src/common/fraser/gc.c:308:22: note: in expansion of macro ‘CASPO’
+     while ( (new_p = CASPO(&alloc->next, p, p->next)) != p );
+                      ^~~~~
+../../../../dev/src/common/fraser/gc.c: In function ‘gc_reclaim’:
+../../../../dev/src/common/fraser/gc.c:329:19: warning: variable ‘two_ago’ set but not used [-Wunused-but-set-variable]
+     int           two_ago, three_ago, i, j;
+                   ^~~~~~~
+../../../../dev/src/common/fraser/gc.c: In function ‘fr_gc_init’:
+../../../../dev/src/common/fraser/gc.c:166:21: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]
+     fprintf(stderr, "OUT OF MEMORY: %d bytes at line %d\n", (_s), __LINE__); \
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~
+../../../../dev/src/common/fraser/gc.c:166:21: note: in definition of macro ‘MEM_FAIL’
+     fprintf(stderr, "OUT OF MEMORY: %d bytes at line %d\n", (_s), __LINE__); \
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=64 -g -O2 -MT libfd_la-gc.lo -MD -MP -MF .deps/libfd_la-gc.Tpo -c ../../../../dev/src/common/fraser/gc.c -o libfd_la-gc.o >/dev/null 2>&1
+mv -f .deps/libfd_la-gc.Tpo .deps/libfd_la-gc.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -g -O2 -MT libfd_la-ptst.lo -MD -MP -MF .deps/libfd_la-ptst.Tpo -c -o libfd_la-ptst.lo `test -f 'ptst.c' || echo '../../../../dev/src/common/fraser/'`ptst.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=64 -g -O2 -MT libfd_la-ptst.lo -MD -MP -MF .deps/libfd_la-ptst.Tpo -c ../../../../dev/src/common/fraser/ptst.c  -fPIC -DPIC -o .libs/libfd_la-ptst.o
+In file included from ../../../../dev/src/common/fraser/portable_defns.h:9,
+                 from ../../../../dev/src/common/fraser/ptst.c:28:
+../../../../dev/src/common/fraser/ptst.c: In function ‘fr_critical_enter’:
+../../../../dev/src/common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../dev/src/common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../../../dev/src/common/fraser/ptst.c:69:33: note: in expansion of macro ‘CASPO’
+             while ( (new_next = CASPO(&ptst_list, next, ptst)) != next );
+                                 ^~~~~
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=64 -g -O2 -MT libfd_la-ptst.lo -MD -MP -MF .deps/libfd_la-ptst.Tpo -c ../../../../dev/src/common/fraser/ptst.c -o libfd_la-ptst.o >/dev/null 2>&1
+mv -f .deps/libfd_la-ptst.Tpo .deps/libfd_la-ptst.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -g -O2 -MT libfd_la-stm_fraser.lo -MD -MP -MF .deps/libfd_la-stm_fraser.Tpo -c -o libfd_la-stm_fraser.lo `test -f 'stm_fraser.c' || echo '../../../../dev/src/common/fraser/'`stm_fraser.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=64 -g -O2 -MT libfd_la-stm_fraser.lo -MD -MP -MF .deps/libfd_la-stm_fraser.Tpo -c ../../../../dev/src/common/fraser/stm_fraser.c  -fPIC -DPIC -o .libs/libfd_la-stm_fraser.o
+../../../../dev/src/common/fraser/stm_fraser.c: In function ‘release_descriptor’:
+../../../../dev/src/common/fraser/stm_fraser.c:110:11: warning: unused variable ‘data’ [-Wunused-variable]
+     void *data;
+           ^~~~
+../../../../dev/src/common/fraser/stm_fraser.c: In function ‘read_blk_data’:
+../../../../dev/src/common/fraser/stm_fraser.c:225:20: warning: unused variable ‘pent’ [-Wunused-variable]
+     stm_tx_entry **pent;
+                    ^~~~
+../../../../dev/src/common/fraser/stm_fraser.c:224:9: warning: unused variable ‘status’ [-Wunused-variable]
+     int status;
+         ^~~~~~
+In file included from ../../../../dev/src/common/fraser/portable_defns.h:9,
+                 from ../../../../dev/src/common/fraser/stm_fraser.c:23:
+../../../../dev/src/common/fraser/stm_fraser.c: In function ‘commit_stm_tx’:
+../../../../dev/src/common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../dev/src/common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../../../dev/src/common/fraser/stm_fraser.c:345:24: note: in expansion of macro ‘CASPO’
+                 data = CASPO(&ent->b->data, ent->old, marked_tx);
+                        ^~~~~
+../../../../dev/src/common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../dev/src/common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../../../dev/src/common/fraser/stm_fraser.c:465:15: note: in expansion of macro ‘CASPO’
+         (void)CASPO(&ent->b->data, marked_tx,
+               ^~~~~
+../../../../dev/src/common/fraser/stm_fraser.c: In function ‘handle_fault’:
+../../../../dev/src/common/fraser/stm_fraser.c:634:2: warning: label ‘fail’ defined but not used [-Wunused-label]
+  fail:
+  ^~~~
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../../dev/src/common/fraser -I../../../src -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=64 -g -O2 -MT libfd_la-stm_fraser.lo -MD -MP -MF .deps/libfd_la-stm_fraser.Tpo -c ../../../../dev/src/common/fraser/stm_fraser.c -o libfd_la-stm_fraser.o >/dev/null 2>&1
+mv -f .deps/libfd_la-stm_fraser.Tpo .deps/libfd_la-stm_fraser.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=link gcc -O3 -DINTEL -fomit-frame-pointer -Wall -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -g -O2   -o libfd.la  libfd_la-gc.lo libfd_la-ptst.lo libfd_la-stm_fraser.lo  -ltcmalloc -lpthread 
+libtool: link: ar cru .libs/libfd.a .libs/libfd_la-gc.o .libs/libfd_la-ptst.o .libs/libfd_la-stm_fraser.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libfd.a
+libtool: link: ( cd ".libs" && rm -f "libfd.la" && ln -s "../libfd.la" "libfd.la" )
+make[3]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile/src/common/fraser'
+make[3]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT bench/trans-main.o -MD -MP -MF bench/.deps/trans-main.Tpo -c -o bench/trans-main.o `test -f 'bench/main.cc' || echo '../../dev/src/'`bench/main.cc
+In file included from ../../dev/src/bench/setadaptor.h:9,
+                 from ../../dev/src/bench/main.cc:21:
+../../dev/src/bench/../lftt/map/transmap.h: In member function ‘void TransMap::mark_data_node(void**, int)’:
+../../dev/src/bench/../lftt/map/transmap.h:308:22: warning: value computed is not used [-Wunused-value]
+   __sync_fetch_and_or(&(s[pos]),2);
+   ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+../../dev/src/bench/../lftt/map/transmap.h: In member function ‘void* TransMap::forceExpandTable(int, void**, int, void*, int)’:
+../../dev/src/bench/../lftt/map/transmap.h:1519:14: warning: unused variable ‘fet’ [-Wunused-variable]
+   static int fet = 0;
+              ^~~
+../../dev/src/bench/../lftt/map/transmap.h: In member function ‘bool TransMap::Allocate_Spine(int, void**, int, TransMap::DataNode*, TransMap::DataNode*, int)’:
+../../dev/src/bench/../lftt/map/transmap.h:1687:15: warning: unused variable ‘as2’ [-Wunused-variable]
+    static int as2 = 0;
+               ^~~
+../../dev/src/bench/../lftt/map/transmap.h:1657:14: warning: unused variable ‘as1’ [-Wunused-variable]
+   static int as1 = 0;
+              ^~~
+In file included from ../../dev/src/bench/../romulus/datastructures/../commonromulus/tm.h:36,
+                 from ../../dev/src/bench/../romulus/datastructures/TMLinkedListSet.hpp:14,
+                 from ../../dev/src/bench/setadaptor.h:11,
+                 from ../../dev/src/bench/main.cc:21:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp: In member function ‘bool romuluslr::RIStaticPerThread::isEmpty()’:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp:103:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+         for (int tid = 0; tid < ThreadRegistry::getMaxThreads(); tid++) {
+                           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../dev/src/bench/../romulus/datastructures/../commonromulus/tm.h:36,
+                 from ../../dev/src/bench/../romulus/datastructures/TMLinkedListSet.hpp:14,
+                 from ../../dev/src/bench/setadaptor.h:11,
+                 from ../../dev/src/bench/main.cc:21:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp: In member function ‘void romuluslr::RomulusLR::apply_pwb(uint8_t*)’:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp:260:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp: In member function ‘void romuluslr::RomulusLR::apply_log(uint8_t*, uint8_t*)’:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp:279:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+In file included from ../../dev/src/bench/../lftt/list/translist.h:8,
+                 from ../../dev/src/bench/setadaptor.h:6,
+                 from ../../dev/src/bench/main.cc:21:
+../../dev/src/bench/../lftt/list/../../common/allocator.h: In instantiation of ‘void Allocator<DataType>::reload_pmem(const char*) [with DataType = TransList::Node]’:
+../../dev/src/bench/setadaptor.h:119:13:   required from here
+../../dev/src/bench/../lftt/list/../../common/allocator.h:321:13: warning: unused variable ‘current_size’ [-Wunused-variable]
+         int current_size = 0;
+             ^~~~~~~~~~~~
+../../dev/src/bench/../lftt/list/../../common/allocator.h:46:50: note: in definition of macro ‘ALLOCATOR_PMEM_ONLY_CODE’
+     #define ALLOCATOR_PMEM_ONLY_CODE( PMEMCode ) PMEMCode
+                                                  ^~~~~~~~
+../../dev/src/bench/../lftt/list/../../common/allocator.h: In instantiation of ‘void Allocator<DataType>::reload_pmem(const char*) [with DataType = TransList::Desc]’:
+../../dev/src/bench/setadaptor.h:119:13:   required from here
+../../dev/src/bench/../lftt/list/../../common/allocator.h:321:13: warning: unused variable ‘current_size’ [-Wunused-variable]
+         int current_size = 0;
+             ^~~~~~~~~~~~
+../../dev/src/bench/../lftt/list/../../common/allocator.h:46:50: note: in definition of macro ‘ALLOCATOR_PMEM_ONLY_CODE’
+     #define ALLOCATOR_PMEM_ONLY_CODE( PMEMCode ) PMEMCode
+                                                  ^~~~~~~~
+../../dev/src/bench/../lftt/list/../../common/allocator.h: In instantiation of ‘void Allocator<DataType>::reload_pmem(const char*) [with DataType = TransList::NodeDesc]’:
+../../dev/src/bench/setadaptor.h:119:13:   required from here
+../../dev/src/bench/../lftt/list/../../common/allocator.h:321:13: warning: unused variable ‘current_size’ [-Wunused-variable]
+         int current_size = 0;
+             ^~~~~~~~~~~~
+../../dev/src/bench/../lftt/list/../../common/allocator.h:46:50: note: in definition of macro ‘ALLOCATOR_PMEM_ONLY_CODE’
+     #define ALLOCATOR_PMEM_ONLY_CODE( PMEMCode ) PMEMCode
+                                                  ^~~~~~~~
+mv -f bench/.deps/trans-main.Tpo bench/.deps/trans-main.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT common/trans-allocator.o -MD -MP -MF common/.deps/trans-allocator.Tpo -c -o common/trans-allocator.o `test -f 'common/allocator.cc' || echo '../../dev/src/'`common/allocator.cc
+mv -f common/.deps/trans-allocator.Tpo common/.deps/trans-allocator.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT common/trans-timehelper.o -MD -MP -MF common/.deps/trans-timehelper.Tpo -c -o common/trans-timehelper.o `test -f 'common/timehelper.cc' || echo '../../dev/src/'`common/timehelper.cc
+mv -f common/.deps/trans-timehelper.Tpo common/.deps/trans-timehelper.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT common/trans-assert.o -MD -MP -MF common/.deps/trans-assert.Tpo -c -o common/trans-assert.o `test -f 'common/assert.cc' || echo '../../dev/src/'`common/assert.cc
+mv -f common/.deps/trans-assert.Tpo common/.deps/trans-assert.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT lftt/list/trans-translist.o -MD -MP -MF lftt/list/.deps/trans-translist.Tpo -c -o lftt/list/trans-translist.o `test -f 'lftt/list/translist.cc' || echo '../../dev/src/'`lftt/list/translist.cc
+../../dev/src/lftt/list/translist.cc: In member function ‘void TransList::validate_and_recovery(int, Allocator<TransList::Desc>*)’:
+../../dev/src/lftt/list/translist.cc:737:13: warning: unused variable ‘counter’ [-Wunused-variable]
+         int counter = 0;
+             ^~~~~~~
+mv -f lftt/list/.deps/trans-translist.Tpo lftt/list/.deps/trans-translist.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT lftt/skiplist/trans-transskip.o -MD -MP -MF lftt/skiplist/.deps/trans-transskip.Tpo -c -o lftt/skiplist/trans-transskip.o `test -f 'lftt/skiplist/transskip.cc' || echo '../../dev/src/'`lftt/skiplist/transskip.cc
+In file included from ../../dev/src/lftt/skiplist/../../common/fraser/portable_defns.h:9,
+                 from ../../dev/src/lftt/skiplist/transskip.cc:31:
+../../dev/src/lftt/skiplist/transskip.cc: In function ‘node_t* strong_search_predecessors(trans_skip*, setkey_t, node_t**, node_t**)’:
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../dev/src/lftt/skiplist/transskip.cc:295:26: note: in expansion of macro ‘CASPO’
+             old_x_next = CASPO(&x->next[i], x_next, y);
+                          ^~~~~
+../../dev/src/lftt/skiplist/transskip.cc: In function ‘void mark_deleted(node_t*, int)’:
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../dev/src/lftt/skiplist/transskip.cc:360:22: note: in expansion of macro ‘CASPO’
+             x_next = CASPO(&x->next[level], x_next, get_marked_ref(x_next));
+                      ^~~~~
+../../dev/src/lftt/skiplist/transskip.cc: In function ‘bool transskip_insert(trans_skip*, setkey_t, Desc*, uint8_t, node_t*&)’:
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../dev/src/lftt/skiplist/transskip.cc:580:16: note: in expansion of macro ‘CASPO’
+     old_next = CASPO(&preds[0]->next[0], succ, new_node);
+                ^~~~~
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../dev/src/lftt/skiplist/transskip.cc:604:24: note: in expansion of macro ‘CASPO’
+             old_next = CASPO(&new_node->next[i], new_next, succ);
+                        ^~~~~
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../dev/src/lftt/skiplist/transskip.cc:614:20: note: in expansion of macro ‘CASPO’
+         old_next = CASPO(&pred->next[i], succ, new_node);
+                    ^~~~~
+../../dev/src/lftt/skiplist/transskip.cc: In function ‘void* transskip_delete_org(trans_skip*, setkey_t)’:
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:29:29: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        : "=a" (__o), "=m" (*(volatile unsigned int *)(_a)) \
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../dev/src/lftt/skiplist/../../common/fraser/intel_defns.h:59:15: note: in expansion of macro ‘CAS’
+ #define CASPO CAS
+               ^~~
+../../dev/src/lftt/skiplist/transskip.cc:778:14: note: in expansion of macro ‘CASPO’
+         if ( CASPO(&preds[i]->next[i], x, get_unmarked_ref(x->next[i])) != x )
+              ^~~~~
+../../dev/src/lftt/skiplist/transskip.cc: In function ‘void transskip_print(trans_skip*)’:
+../../dev/src/lftt/skiplist/transskip.cc:1163:16: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘setkey_t’ {aka ‘long unsigned int’} [-Wformat=]
+         printf("Node [%p] Key [%u] Status [%s]\n", curr, INTERNAL_TO_CALLER_KEY(curr->k), IsKeyExist(CLR_MARKD(curr->nodeDesc))? "Exist":"Inexist");
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../dev/src/lftt/skiplist/transskip.cc: At global scope:
+../../dev/src/lftt/skiplist/transskip.cc:219:16: warning: ‘node_t* alloc_node(ptst_t*)’ defined but not used [-Wunused-function]
+ static node_t *alloc_node(ptst_t *ptst)
+                ^~~~~~~~~~
+mv -f lftt/skiplist/.deps/trans-transskip.Tpo lftt/skiplist/.deps/trans-transskip.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT lftt/mdlist/trans-txmdlist.o -MD -MP -MF lftt/mdlist/.deps/trans-txmdlist.Tpo -c -o lftt/mdlist/trans-txmdlist.o `test -f 'lftt/mdlist/txmdlist.cc' || echo '../../dev/src/'`lftt/mdlist/txmdlist.cc
+../../dev/src/lftt/mdlist/txmdlist.cc: In member function ‘void TxMdList::MarkForDeletion(const std::vector<TxMdList::Node*>&, const std::vector<TxMdList::Node*>&, const std::vector<unsigned int>&, TxMdList::Desc*)’:
+../../dev/src/lftt/mdlist/txmdlist.cc:682:48: warning: value computed is not used [-Wunused-value]
+                     __sync_val_compare_and_swap(&pred->m_child[pred_dim], n, SET_DELINV(n));
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mv -f lftt/mdlist/.deps/trans-txmdlist.Tpo lftt/mdlist/.deps/trans-txmdlist.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT lftt/map/trans-transmap.o -MD -MP -MF lftt/map/.deps/trans-transmap.Tpo -c -o lftt/map/trans-transmap.o `test -f 'lftt/map/transmap.cc' || echo '../../dev/src/'`lftt/map/transmap.cc
+In file included from ../../dev/src/lftt/map/transmap.cc:4:
+../../dev/src/lftt/map/transmap.h: In member function ‘void TransMap::mark_data_node(void**, int)’:
+../../dev/src/lftt/map/transmap.h:308:22: warning: value computed is not used [-Wunused-value]
+   __sync_fetch_and_or(&(s[pos]),2);
+   ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+../../dev/src/lftt/map/transmap.h: In member function ‘void* TransMap::forceExpandTable(int, void**, int, void*, int)’:
+../../dev/src/lftt/map/transmap.h:1519:14: warning: unused variable ‘fet’ [-Wunused-variable]
+   static int fet = 0;
+              ^~~
+../../dev/src/lftt/map/transmap.h: In member function ‘bool TransMap::Allocate_Spine(int, void**, int, TransMap::DataNode*, TransMap::DataNode*, int)’:
+../../dev/src/lftt/map/transmap.h:1687:15: warning: unused variable ‘as2’ [-Wunused-variable]
+    static int as2 = 0;
+               ^~~
+../../dev/src/lftt/map/transmap.h:1657:14: warning: unused variable ‘as1’ [-Wunused-variable]
+   static int as1 = 0;
+              ^~~
+../../dev/src/lftt/map/transmap.h: In member function ‘bool TransMap::putUpdate_sub(TransMap::Desc*, void**, TransMap::DataNode*, int, TransMap::NodeDesc*)’:
+../../dev/src/lftt/map/transmap.h:1015:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }//End update sub
+ ^
+mv -f lftt/map/.deps/trans-transmap.Tpo lftt/map/.deps/trans-transmap.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT durabletxn/trans-dtx.o -MD -MP -MF durabletxn/.deps/trans-dtx.Tpo -c -o durabletxn/trans-dtx.o `test -f 'durabletxn/dtx.cc' || echo '../../dev/src/'`durabletxn/dtx.cc
+mv -f durabletxn/.deps/trans-dtx.Tpo durabletxn/.deps/trans-dtx.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT boostinglist/trans-boostinglist.o -MD -MP -MF boostinglist/.deps/trans-boostinglist.Tpo -c -o boostinglist/trans-boostinglist.o `test -f 'boostinglist/boostinglist.cc' || echo '../../dev/src/'`boostinglist/boostinglist.cc
+mv -f boostinglist/.deps/trans-boostinglist.Tpo boostinglist/.deps/trans-boostinglist.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT lockfreelist/trans-lockfreelist.o -MD -MP -MF lockfreelist/.deps/trans-lockfreelist.Tpo -c -o lockfreelist/trans-lockfreelist.o `test -f 'lockfreelist/lockfreelist.cc' || echo '../../dev/src/'`lockfreelist/lockfreelist.cc
+../../dev/src/lockfreelist/lockfreelist.cc: In member function ‘LockfreeList::Node* LockfreeList::LocatePred(uint32_t, LockfreeList::Node**)’:
+../../dev/src/lockfreelist/lockfreelist.cc:77:40: warning: ‘left_next’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         if(__sync_bool_compare_and_swap(&(*left)->next, left_next, right))
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mv -f lockfreelist/.deps/trans-lockfreelist.Tpo lockfreelist/.deps/trans-lockfreelist.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -pthread -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I/opt/intel/tbb/include -I../src -I../../dev/src   -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT boostinglist/trans-lockkey.o -MD -MP -MF boostinglist/.deps/trans-lockkey.Tpo -c -o boostinglist/trans-lockkey.o `test -f 'boostinglist/lockkey.cc' || echo '../../dev/src/'`boostinglist/lockkey.cc
+mv -f boostinglist/.deps/trans-lockkey.Tpo boostinglist/.deps/trans-lockkey.Po
+/bin/bash ../libtool  --tag=CXX   --mode=link g++  -O3 -DNDEBUG -L/opt/intel/tbb/lib/intel64/gcc4.7  -o trans bench/trans-main.o common/trans-allocator.o common/trans-timehelper.o common/trans-assert.o lftt/list/trans-translist.o lftt/skiplist/trans-transskip.o lftt/mdlist/trans-txmdlist.o lftt/map/trans-transmap.o durabletxn/trans-dtx.o boostinglist/trans-boostinglist.o lockfreelist/trans-lockfreelist.o boostinglist/trans-lockkey.o -lpmemobj -lpmem -lrt -ltbb -ltcmalloc common/fraser/libfd.la -ltcmalloc -lpthread 
+libtool: link: g++ -O3 -DNDEBUG -o trans bench/trans-main.o common/trans-allocator.o common/trans-timehelper.o common/trans-assert.o lftt/list/trans-translist.o lftt/skiplist/trans-transskip.o lftt/mdlist/trans-txmdlist.o lftt/map/trans-transmap.o durabletxn/trans-dtx.o boostinglist/trans-boostinglist.o lockfreelist/trans-lockfreelist.o boostinglist/trans-lockkey.o  -L/opt/intel/tbb/lib/intel64/gcc4.7 -lpmemobj -lpmem -lrt -ltbb common/fraser/.libs/libfd.a -ltcmalloc -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT bench/transRomulus-RomulusMain.o -MD -MP -MF bench/.deps/transRomulus-RomulusMain.Tpo -c -o bench/transRomulus-RomulusMain.o `test -f 'bench/RomulusMain.cc' || echo '../../dev/src/'`bench/RomulusMain.cc
+In file included from ../../dev/src/bench/../romulus/datastructures/../commonromulus/tm.h:36,
+                 from ../../dev/src/bench/../romulus/datastructures/TMLinkedListSet.hpp:14,
+                 from ../../dev/src/bench/RomulusSetadaptor.h:8,
+                 from ../../dev/src/bench/RomulusMain.cc:21:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp: In member function ‘bool romuluslr::RIStaticPerThread::isEmpty()’:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp:103:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+         for (int tid = 0; tid < ThreadRegistry::getMaxThreads(); tid++) {
+                           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../dev/src/bench/../romulus/datastructures/../commonromulus/tm.h:36,
+                 from ../../dev/src/bench/../romulus/datastructures/TMLinkedListSet.hpp:14,
+                 from ../../dev/src/bench/RomulusSetadaptor.h:8,
+                 from ../../dev/src/bench/RomulusMain.cc:21:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp: In member function ‘void romuluslr::RomulusLR::apply_pwb(uint8_t*)’:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp:260:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp: In member function ‘void romuluslr::RomulusLR::apply_log(uint8_t*, uint8_t*)’:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp:279:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+In file included from ../../dev/src/bench/RomulusSetadaptor.h:10,
+                 from ../../dev/src/bench/RomulusMain.cc:21:
+../../dev/src/bench/../romulus/datastructures/TMSkipList.hpp: In instantiation of ‘TMSkipList<K>::TMSkipList(unsigned int) [with K = int]’:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp:756:18:   required from ‘static T* romuluslr::RomulusLR::alloc(Args&& ...) [with T = TMSkipList<int>; Args = {}]’
+../../dev/src/bench/RomulusSetadaptor.h:150:57:   required from here
+../../dev/src/bench/../romulus/datastructures/TMSkipList.hpp:74:23: warning: comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+         if (rand_seed == -1)
+             ~~~~~~~~~~^~~~~
+In file included from ../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/RomulusLR.hpp:37,
+                 from ../../dev/src/bench/../romulus/datastructures/../commonromulus/tm.h:36,
+                 from ../../dev/src/bench/../romulus/datastructures/TMLinkedListSet.hpp:14,
+                 from ../../dev/src/bench/RomulusSetadaptor.h:8,
+                 from ../../dev/src/bench/RomulusMain.cc:21:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/../commonromulus/ThreadRegistry.hpp: In member function ‘int ThreadRegistry::register_thread_new()’:
+../../dev/src/bench/../romulus/datastructures/../commonromulus/../romuluslr/../commonromulus/ThreadRegistry.hpp:74:100: warning: control reaches end of non-void function [-Wreturn-type]
+         std::cout << "ERROR: Too many threads, registry can only hold " << REGISTRY_MAX_THREADS << " threads\n";
+                                                                                                    ^~~~~~~~~~~~
+mv -f bench/.deps/transRomulus-RomulusMain.Tpo bench/.deps/transRomulus-RomulusMain.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT common/transRomulus-timehelper.o -MD -MP -MF common/.deps/transRomulus-timehelper.Tpo -c -o common/transRomulus-timehelper.o `test -f 'common/timehelper.cc' || echo '../../dev/src/'`common/timehelper.cc
+mv -f common/.deps/transRomulus-timehelper.Tpo common/.deps/transRomulus-timehelper.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/commonromulus/transRomulus-ThreadRegistry.o -MD -MP -MF romulus/commonromulus/.deps/transRomulus-ThreadRegistry.Tpo -c -o romulus/commonromulus/transRomulus-ThreadRegistry.o `test -f 'romulus/commonromulus/ThreadRegistry.cpp' || echo '../../dev/src/'`romulus/commonromulus/ThreadRegistry.cpp
+mv -f romulus/commonromulus/.deps/transRomulus-ThreadRegistry.Tpo romulus/commonromulus/.deps/transRomulus-ThreadRegistry.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/romulus/transRomulus-Romulus.o -MD -MP -MF romulus/romulus/.deps/transRomulus-Romulus.Tpo -c -o romulus/romulus/transRomulus-Romulus.o `test -f 'romulus/romulus/Romulus.cpp' || echo '../../dev/src/'`romulus/romulus/Romulus.cpp
+mv -f romulus/romulus/.deps/transRomulus-Romulus.Tpo romulus/romulus/.deps/transRomulus-Romulus.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/romulus/transRomulus-malloc.o -MD -MP -MF romulus/romulus/.deps/transRomulus-malloc.Tpo -c -o romulus/romulus/transRomulus-malloc.o `test -f 'romulus/romulus/malloc.cpp' || echo '../../dev/src/'`romulus/romulus/malloc.cpp
+../../dev/src/romulus/romulus/malloc.cpp: In function ‘romulus::malloc_state* romulus::init_user_mstate(char*, size_t)’:
+../../dev/src/romulus/romulus/malloc.cpp:5403:21: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct romulus::malloc_state’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+   memset(m, 0, msize);
+                     ^
+../../dev/src/romulus/romulus/malloc.cpp:2581:8: note: ‘struct romulus::malloc_state’ declared here
+ struct malloc_state {
+        ^~~~~~~~~~~~
+../../dev/src/romulus/romulus/malloc.cpp: At global scope:
+../../dev/src/romulus/romulus/malloc.cpp:4036:14: warning: ‘void* romulus::sys_alloc(romulus::mstate, size_t)’ defined but not used [-Wunused-function]
+ static void* sys_alloc(mstate m, size_t nb) {
+              ^~~~~~~~~
+mv -f romulus/romulus/.deps/transRomulus-malloc.Tpo romulus/romulus/.deps/transRomulus-malloc.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/romuluslog/transRomulus-RomulusLog.o -MD -MP -MF romulus/romuluslog/.deps/transRomulus-RomulusLog.Tpo -c -o romulus/romuluslog/transRomulus-RomulusLog.o `test -f 'romulus/romuluslog/RomulusLog.cpp' || echo '../../dev/src/'`romulus/romuluslog/RomulusLog.cpp
+In file included from ../../dev/src/romulus/romuluslog/RomulusLog.cpp:2:
+../../dev/src/romulus/romuluslog/RomulusLog.hpp: In member function ‘void romuluslog::RomulusLog::apply_pwb(uint8_t*)’:
+../../dev/src/romulus/romuluslog/RomulusLog.hpp:173:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+../../dev/src/romulus/romuluslog/RomulusLog.hpp: In member function ‘void romuluslog::RomulusLog::apply_log(uint8_t*, uint8_t*)’:
+../../dev/src/romulus/romuluslog/RomulusLog.hpp:191:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+mv -f romulus/romuluslog/.deps/transRomulus-RomulusLog.Tpo romulus/romuluslog/.deps/transRomulus-RomulusLog.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/romuluslog/transRomulus-malloc.o -MD -MP -MF romulus/romuluslog/.deps/transRomulus-malloc.Tpo -c -o romulus/romuluslog/transRomulus-malloc.o `test -f 'romulus/romuluslog/malloc.cpp' || echo '../../dev/src/'`romulus/romuluslog/malloc.cpp
+In file included from ../../dev/src/romulus/romuluslog/malloc.cpp:523:
+../../dev/src/romulus/romuluslog/RomulusLog.hpp: In member function ‘void romuluslog::RomulusLog::apply_pwb(uint8_t*)’:
+../../dev/src/romulus/romuluslog/RomulusLog.hpp:173:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+../../dev/src/romulus/romuluslog/RomulusLog.hpp: In member function ‘void romuluslog::RomulusLog::apply_log(uint8_t*, uint8_t*)’:
+../../dev/src/romulus/romuluslog/RomulusLog.hpp:191:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+../../dev/src/romulus/romuluslog/malloc.cpp: In function ‘romuluslog::malloc_state* romuluslog::init_user_mstate(char*, size_t)’:
+../../dev/src/romulus/romuluslog/malloc.cpp:5402:21: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct romuluslog::malloc_state’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+   memset(m, 0, msize);
+                     ^
+../../dev/src/romulus/romuluslog/malloc.cpp:2580:8: note: ‘struct romuluslog::malloc_state’ declared here
+ struct malloc_state {
+        ^~~~~~~~~~~~
+../../dev/src/romulus/romuluslog/malloc.cpp: At global scope:
+../../dev/src/romulus/romuluslog/malloc.cpp:4035:14: warning: ‘void* romuluslog::sys_alloc(romuluslog::mstate, size_t)’ defined but not used [-Wunused-function]
+ static void* sys_alloc(mstate m, size_t nb) {
+              ^~~~~~~~~
+mv -f romulus/romuluslog/.deps/transRomulus-malloc.Tpo romulus/romuluslog/.deps/transRomulus-malloc.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/romuluslr/transRomulus-RomulusLR.o -MD -MP -MF romulus/romuluslr/.deps/transRomulus-RomulusLR.Tpo -c -o romulus/romuluslr/transRomulus-RomulusLR.o `test -f 'romulus/romuluslr/RomulusLR.cpp' || echo '../../dev/src/'`romulus/romuluslr/RomulusLR.cpp
+In file included from ../../dev/src/romulus/romuluslr/RomulusLR.cpp:2:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp: In member function ‘bool romuluslr::RIStaticPerThread::isEmpty()’:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp:103:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+         for (int tid = 0; tid < ThreadRegistry::getMaxThreads(); tid++) {
+                           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../dev/src/romulus/romuluslr/RomulusLR.cpp:2:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp: In member function ‘void romuluslr::RomulusLR::apply_pwb(uint8_t*)’:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp:260:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+../../dev/src/romulus/romuluslr/RomulusLR.hpp: In member function ‘void romuluslr::RomulusLR::apply_log(uint8_t*, uint8_t*)’:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp:279:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+mv -f romulus/romuluslr/.deps/transRomulus-RomulusLR.Tpo romulus/romuluslr/.deps/transRomulus-RomulusLR.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/romuluslr/transRomulus-malloc.o -MD -MP -MF romulus/romuluslr/.deps/transRomulus-malloc.Tpo -c -o romulus/romuluslr/transRomulus-malloc.o `test -f 'romulus/romuluslr/malloc.cpp' || echo '../../dev/src/'`romulus/romuluslr/malloc.cpp
+In file included from ../../dev/src/romulus/romuluslr/malloc.cpp:523:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp: In member function ‘bool romuluslr::RIStaticPerThread::isEmpty()’:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp:103:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+         for (int tid = 0; tid < ThreadRegistry::getMaxThreads(); tid++) {
+                           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../dev/src/romulus/romuluslr/malloc.cpp:523:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp: In member function ‘void romuluslr::RomulusLR::apply_pwb(uint8_t*)’:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp:260:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+../../dev/src/romulus/romuluslr/RomulusLR.hpp: In member function ‘void romuluslr::RomulusLR::apply_log(uint8_t*, uint8_t*)’:
+../../dev/src/romulus/romuluslr/RomulusLR.hpp:279:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+             for (int i = 0; i < chunk->num_entries; i++) {
+                             ~~^~~~~~~~~~~~~~~~~~~~
+../../dev/src/romulus/romuluslr/malloc.cpp: In function ‘romuluslr::malloc_state* romuluslr::init_user_mstate(char*, size_t)’:
+../../dev/src/romulus/romuluslr/malloc.cpp:5401:21: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct romuluslr::malloc_state’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+   memset(m, 0, msize);
+                     ^
+../../dev/src/romulus/romuluslr/malloc.cpp:2579:8: note: ‘struct romuluslr::malloc_state’ declared here
+ struct malloc_state {
+        ^~~~~~~~~~~~
+../../dev/src/romulus/romuluslr/malloc.cpp: At global scope:
+../../dev/src/romulus/romuluslr/malloc.cpp:4034:14: warning: ‘void* romuluslr::sys_alloc(romuluslr::mstate, size_t)’ defined but not used [-Wunused-function]
+ static void* sys_alloc(mstate m, size_t nb) {
+              ^~~~~~~~~
+mv -f romulus/romuluslr/.deps/transRomulus-malloc.Tpo romulus/romuluslr/.deps/transRomulus-malloc.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/romulusni/transRomulus-RomulusNI.o -MD -MP -MF romulus/romulusni/.deps/transRomulus-RomulusNI.Tpo -c -o romulus/romulusni/transRomulus-RomulusNI.o `test -f 'romulus/romulusni/RomulusNI.cpp' || echo '../../dev/src/'`romulus/romulusni/RomulusNI.cpp
+mv -f romulus/romulusni/.deps/transRomulus-RomulusNI.Tpo romulus/romulusni/.deps/transRomulus-RomulusNI.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/romulus -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT romulus/romulusni/transRomulus-malloc.o -MD -MP -MF romulus/romulusni/.deps/transRomulus-malloc.Tpo -c -o romulus/romulusni/transRomulus-malloc.o `test -f 'romulus/romulusni/malloc.cpp' || echo '../../dev/src/'`romulus/romulusni/malloc.cpp
+../../dev/src/romulus/romulusni/malloc.cpp:4038:14: warning: ‘void* romulusni::sys_alloc(romulusni::mstate, size_t)’ defined but not used [-Wunused-function]
+ static void* sys_alloc(mstate m, size_t nb) {
+              ^~~~~~~~~
+mv -f romulus/romulusni/.deps/transRomulus-malloc.Tpo romulus/romulusni/.deps/transRomulus-malloc.Po
+/bin/bash ../libtool  --tag=CXX   --mode=link g++  -O3 -DNDEBUG -L/opt/intel/tbb/lib/intel64/gcc4.7/  -o transRomulus bench/transRomulus-RomulusMain.o common/transRomulus-timehelper.o romulus/commonromulus/transRomulus-ThreadRegistry.o romulus/romulus/transRomulus-Romulus.o romulus/romulus/transRomulus-malloc.o romulus/romuluslog/transRomulus-RomulusLog.o romulus/romuluslog/transRomulus-malloc.o romulus/romuluslr/transRomulus-RomulusLR.o romulus/romuluslr/transRomulus-malloc.o romulus/romulusni/transRomulus-RomulusNI.o romulus/romulusni/transRomulus-malloc.o -lpmemobj -lpmem -lrt -ltbb -lpthread -ltcmalloc -lpthread 
+libtool: link: g++ -O3 -DNDEBUG -o transRomulus bench/transRomulus-RomulusMain.o common/transRomulus-timehelper.o romulus/commonromulus/transRomulus-ThreadRegistry.o romulus/romulus/transRomulus-Romulus.o romulus/romulus/transRomulus-malloc.o romulus/romuluslog/transRomulus-RomulusLog.o romulus/romuluslog/transRomulus-malloc.o romulus/romuluslr/transRomulus-RomulusLR.o romulus/romuluslr/transRomulus-malloc.o romulus/romulusni/transRomulus-RomulusNI.o romulus/romulusni/transRomulus-malloc.o  -L/opt/intel/tbb/lib/intel64/gcc4.7/ -lpmemobj -lpmem -lrt -ltbb -ltcmalloc -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/OneFile -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT bench/transOneFile-OneFileMain.o -MD -MP -MF bench/.deps/transOneFile-OneFileMain.Tpo -c -o bench/transOneFile-OneFileMain.o `test -f 'bench/OneFileMain.cc' || echo '../../dev/src/'`bench/OneFileMain.cc
+In file included from ../../dev/src/bench/OneFileSetadaptor.h:9,
+                 from ../../dev/src/bench/OneFileMain.cc:21:
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp: In constructor ‘poflf::WriteSet::WriteSet()’:
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp:421:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+         for (int i = 0; i < HASH_BUCKETS; i++) buckets[i] = &log[TX_MAX_STORES-1];
+                         ~~^~~~~~~~~~~~~~
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp: In member function ‘void poflf::OneFileLF::helpApply(uint64_t, int)’:
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp:863:17: warning: comparison of integer expressions of different signedness: ‘const uint64_t’ {aka ‘const long unsigned int’} and ‘const int’ [-Wsign-compare]
+         if (idx != tid) {
+             ~~~~^~~~~~
+In file included from ../../dev/src/bench/OneFileSetadaptor.h:11,
+                 from ../../dev/src/bench/OneFileMain.cc:21:
+../../dev/src/bench/../OneFile/pdatastructures/TMSkipList.hpp: In instantiation of ‘TMSkipList<K, TM, TMTYPE>::TMSkipList(unsigned int) [with K = int; TM = poflf::OneFileLF; TMTYPE = poflf::tmtype]’:
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp:808:9:   required from ‘static T* poflf::OneFileLF::tmNew(Args&& ...) [with T = TMSkipList<int, poflf::OneFileLF, poflf::tmtype>; Args = {}]’
+../../dev/src/bench/OneFileSetadaptor.h:160:112:   required from here
+../../dev/src/bench/../OneFile/pdatastructures/TMSkipList.hpp:74:27: warning: comparison of integer expressions of different signedness: ‘const unsigned int’ and ‘int’ [-Wsign-compare]
+             if (rand_seed == -1)
+                 ~~~~~~~~~~^~~~~
+In file included from ../../dev/src/bench/OneFileSetadaptor.h:10,
+                 from ../../dev/src/bench/OneFileMain.cc:21:
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp: In instantiation of ‘TMHashMap<K, V, TM, TMTYPE>::TMHashMap(uint64_t) [with K = int; V = int; TM = poflf::OneFileLF; TMTYPE = poflf::tmtype; uint64_t = long unsigned int]’:
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp:808:9:   required from ‘static T* poflf::OneFileLF::tmNew(Args&& ...) [with T = TMHashMap<int, int, poflf::OneFileLF, poflf::tmtype>; Args = {}]’
+../../dev/src/bench/OneFileSetadaptor.h:393:111:   required from here
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp:32:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   for (int i = 0; i < capacity; i++) buckets[i]=nullptr;
+                   ~~^~~~~~~~~~
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp: In instantiation of ‘TMHashMap<K, V, TM, TMTYPE>::~TMHashMap() [with K = int; V = int; TM = poflf::OneFileLF; TMTYPE = poflf::tmtype]’:
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp:814:9:   required from ‘static void poflf::OneFileLF::tmDelete(T*) [with T = TMHashMap<int, int, poflf::OneFileLF, poflf::tmtype>]’
+../../dev/src/bench/OneFileSetadaptor.h:404:50:   required from here
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp:37:20: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   for(int i = 0; i < capacity; i++){
+                  ~~^~~~~~~~~~
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp: In instantiation of ‘void TMHashMap<K, V, TM, TMTYPE>::rebuild() [with K = int; V = int; TM = poflf::OneFileLF; TMTYPE = poflf::tmtype]’:
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp:81:59:   required from ‘bool TMHashMap<K, V, TM, TMTYPE>::innerPut(const K&, const V&, V&, bool) [with K = int; V = int; TM = poflf::OneFileLF; TMTYPE = poflf::tmtype]’
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp:165:20:   required from ‘bool TMHashMap<K, V, TM, TMTYPE>::add(const K&) [with K = int; V = int; TM = poflf::OneFileLF; TMTYPE = poflf::tmtype]’
+../../dev/src/bench/OneFileSetadaptor.h:437:50:   required from here
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp:56:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint64_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+         for (int i = 0; i < newcapacity; i++) newbuckets[i] = nullptr;
+                         ~~^~~~~~~~~~~~~
+../../dev/src/bench/../OneFile/pdatastructures/TMHashMap.hpp:57:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+         for (int i = 0; i < capacity; i++) {
+                         ~~^~~~~~~~~~
+In file included from ../../dev/src/bench/OneFileSetadaptor.h:9,
+                 from ../../dev/src/bench/OneFileMain.cc:21:
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp: In member function ‘int poflf::ThreadRegistry::register_thread_new()’:
+../../dev/src/bench/../OneFile/ptms/OneFilePTMLF.hpp:193:100: warning: control reaches end of non-void function [-Wreturn-type]
+         std::cout << "ERROR: Too many threads, registry can only hold " << REGISTRY_MAX_THREADS << " threads\n";
+                                                                                                    ^~~~~~~~~~~~
+mv -f bench/.deps/transOneFile-OneFileMain.Tpo bench/.deps/transOneFile-OneFileMain.Po
+g++ -DHAVE_CONFIG_H -I. -I../../dev/src  -Wall -std=c++14 -DINTEL -DCACHE_LINE_SIZE=`getconf LEVEL1_DCACHE_LINESIZE` -I../src/OneFile -g -O2 -fuse-ld=gold -DENABLE_READ_ONLY_OPT -DUSE_PMEM_ALLOCATOR -DPWB_IS_CLWB -DROMULUS_LR_PTM  -O3 -DNDEBUG -MT common/transOneFile-timehelper.o -MD -MP -MF common/.deps/transOneFile-timehelper.Tpo -c -o common/transOneFile-timehelper.o `test -f 'common/timehelper.cc' || echo '../../dev/src/'`common/timehelper.cc
+mv -f common/.deps/transOneFile-timehelper.Tpo common/.deps/transOneFile-timehelper.Po
+/bin/bash ../libtool  --tag=CXX   --mode=link g++  -O3 -DNDEBUG   -o transOneFile bench/transOneFile-OneFileMain.o common/transOneFile-timehelper.o -lpmemobj -lpmem				 -ltcmalloc -lpthread 
+libtool: link: g++ -O3 -DNDEBUG -o transOneFile bench/transOneFile-OneFileMain.o common/transOneFile-timehelper.o  -lpmemobj -lpmem -ltcmalloc -lpthread
+make[3]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+make[2]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+make[1]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile/src'
+make[1]: Entering directory '/home/sdp/ramin/src/pmem/petra/compile'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/sdp/ramin/src/pmem/petra/compile'

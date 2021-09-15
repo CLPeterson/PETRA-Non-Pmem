@@ -1,0 +1,560 @@
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2449.5s Wall Time: 30.467s
+Total commit 71409049, abort (total/fake) 25590951/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.438s Wall Time: 2.4382s
+Total commit 1039953, abort (total/fake) 960047/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.2154s Wall Time: 2.6145s
+Total commit 1398708, abort (total/fake) 1601292/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.3464s Wall Time: 2.3467s
+Total commit 1040129, abort (total/fake) 959871/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 25.383s Wall Time: 3.2319s
+Total commit 3308560, abort (total/fake) 5691440/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 799.15s Wall Time: 18.943s
+Total commit 15750606, abort (total/fake) 33249394/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 787.75s Wall Time: 18.108s
+Total commit 15751236, abort (total/fake) 33248764/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 24.991s Wall Time: 3.1818s
+Total commit 3308511, abort (total/fake) 5691489/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.366s Wall Time: 2.8558s
+Total commit 5870003, abort (total/fake) 3129997/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 25.083s Wall Time: 3.1952s
+Total commit 3311138, abort (total/fake) 5688862/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3587s Wall Time: 2.3588s
+Total commit 1249519, abort (total/fake) 750481/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.213s Wall Time: 2.5765s
+Total commit 3172262, abort (total/fake) 1827738/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.692s Wall Time: 2.8994s
+Total commit 5872230, abort (total/fake) 3127770/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.2256s Wall Time: 2.2258s
+Total commit 1249087, abort (total/fake) 750913/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 793.63s Wall Time: 18.927s
+Total commit 15751727, abort (total/fake) 33248273/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 72.971s Wall Time: 4.7753s
+Total commit 11540243, abort (total/fake) 5459757/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.3821s Wall Time: 2.6957s
+Total commit 1398563, abort (total/fake) 1601437/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 800.36s Wall Time: 18.087s
+Total commit 15749118, abort (total/fake) 33250882/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.663s Wall Time: 2.9531s
+Total commit 2053393, abort (total/fake) 2946607/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.764s Wall Time: 2.8077s
+Total commit 5868176, abort (total/fake) 3131824/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 66.23s Wall Time: 4.3034s
+Total commit 5799358, abort (total/fake) 11200642/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2446.3s Wall Time: 30.353s
+Total commit 30685463, abort (total/fake) 66314537/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 5.0516s Wall Time: 2.5288s
+Total commit 1880658, abort (total/fake) 1119342/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 822.86s Wall Time: 18.61s
+Total commit 15753490, abort (total/fake) 33246510/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 25.165s Wall Time: 3.2061s
+Total commit 3308726, abort (total/fake) 5691274/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2523s Wall Time: 30.677s
+Total commit 71378946, abort (total/fake) 25621054/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.5206s Wall Time: 2.7637s
+Total commit 1399378, abort (total/fake) 1600622/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2464.8s Wall Time: 30.488s
+Total commit 30690812, abort (total/fake) 66309188/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.3998s Wall Time: 2.7038s
+Total commit 1398947, abort (total/fake) 1601053/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.2224s Wall Time: 2.2228s
+Total commit 1249545, abort (total/fake) 750455/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.3895s Wall Time: 2.6973s
+Total commit 1398400, abort (total/fake) 1601600/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 68.502s Wall Time: 4.503s
+Total commit 5796437, abort (total/fake) 11203563/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3529s Wall Time: 2.353s
+Total commit 1249592, abort (total/fake) 750408/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.2588s Wall Time: 2.6326s
+Total commit 1397215, abort (total/fake) 1602785/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4451s Wall Time: 2.4453s
+Total commit 1039231, abort (total/fake) 960769/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.624s Wall Time: 2.9259s
+Total commit 2054036, abort (total/fake) 2945964/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 798.73s Wall Time: 18.161s
+Total commit 15748118, abort (total/fake) 33251882/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4459s Wall Time: 2.4462s
+Total commit 1040348, abort (total/fake) 959652/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2577.2s Wall Time: 31.388s
+Total commit 71426127, abort (total/fake) 25573873/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 5.0134s Wall Time: 2.51s
+Total commit 1878641, abort (total/fake) 1121359/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 813.34s Wall Time: 18.396s
+Total commit 15755765, abort (total/fake) 33244235/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3536s Wall Time: 2.3538s
+Total commit 1250024, abort (total/fake) 749976/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 4.8545s Wall Time: 2.4308s
+Total commit 1881446, abort (total/fake) 1118554/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 784.83s Wall Time: 18.012s
+Total commit 15754950, abort (total/fake) 33245050/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2500.6s Wall Time: 30.408s
+Total commit 71403724, abort (total/fake) 25596276/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.485s Wall Time: 2.6489s
+Total commit 3174760, abort (total/fake) 1825240/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.637s Wall Time: 2.9343s
+Total commit 2053627, abort (total/fake) 2946373/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 25.414s Wall Time: 3.242s
+Total commit 3306802, abort (total/fake) 5693198/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 70.549s Wall Time: 4.6049s
+Total commit 11536433, abort (total/fake) 5463567/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.29s Wall Time: 2.5971s
+Total commit 3172769, abort (total/fake) 1827231/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2529s Wall Time: 30.862s
+Total commit 30690551, abort (total/fake) 66309449/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3534s Wall Time: 2.3535s
+Total commit 1248648, abort (total/fake) 751352/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.2273s Wall Time: 2.2274s
+Total commit 1249354, abort (total/fake) 750646/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2493s Wall Time: 31.519s
+Total commit 30691577, abort (total/fake) 66308423/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 70.164s Wall Time: 4.586s
+Total commit 11540723, abort (total/fake) 5459277/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 5.0661s Wall Time: 2.5357s
+Total commit 1880200, abort (total/fake) 1119800/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 770.85s Wall Time: 17.745s
+Total commit 15759745, abort (total/fake) 33240255/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.652s Wall Time: 2.9322s
+Total commit 2056584, abort (total/fake) 2943416/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 72.399s Wall Time: 4.7338s
+Total commit 11536759, abort (total/fake) 5463241/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 67.297s Wall Time: 4.4555s
+Total commit 5800078, abort (total/fake) 11199922/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.63s Wall Time: 2.9507s
+Total commit 2054239, abort (total/fake) 2945761/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 4.9985s Wall Time: 2.5044s
+Total commit 1882032, abort (total/fake) 1117968/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.2227s Wall Time: 2.6181s
+Total commit 1398879, abort (total/fake) 1601121/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.675s Wall Time: 2.9429s
+Total commit 2053856, abort (total/fake) 2946144/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.299s Wall Time: 2.5944s
+Total commit 3172705, abort (total/fake) 1827295/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.455s Wall Time: 2.6387s
+Total commit 3174658, abort (total/fake) 1825342/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 804.63s Wall Time: 18.767s
+Total commit 15757803, abort (total/fake) 33242197/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.243s Wall Time: 2.5833s
+Total commit 3170491, abort (total/fake) 1829509/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2418.5s Wall Time: 30.432s
+Total commit 71398606, abort (total/fake) 25601394/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 4.9008s Wall Time: 2.4534s
+Total commit 1880041, abort (total/fake) 1119959/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2367.9s Wall Time: 30.142s
+Total commit 30677566, abort (total/fake) 66322434/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2662s Wall Time: 31.89s
+Total commit 71418105, abort (total/fake) 25581895/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.4031s Wall Time: 2.7063s
+Total commit 1398286, abort (total/fake) 1601714/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4404s Wall Time: 2.4406s
+Total commit 1039345, abort (total/fake) 960655/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.2242s Wall Time: 2.2244s
+Total commit 1248848, abort (total/fake) 751152/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 25.273s Wall Time: 3.2162s
+Total commit 3309096, abort (total/fake) 5690904/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.2351s Wall Time: 2.624s
+Total commit 1399354, abort (total/fake) 1600646/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.472s Wall Time: 2.6416s
+Total commit 3175801, abort (total/fake) 1824199/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.2288s Wall Time: 2.2293s
+Total commit 1250603, abort (total/fake) 749397/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 5.0176s Wall Time: 2.5126s
+Total commit 1881122, abort (total/fake) 1118878/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.2259s Wall Time: 2.2262s
+Total commit 1249525, abort (total/fake) 750475/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.439s Wall Time: 2.8579s
+Total commit 5871482, abort (total/fake) 3128518/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 69.728s Wall Time: 4.5423s
+Total commit 5795798, abort (total/fake) 11204202/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 5.4095s Wall Time: 2.7183s
+Total commit 1398655, abort (total/fake) 1601345/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.254s Wall Time: 2.5868s
+Total commit 3175249, abort (total/fake) 1824751/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.43s Wall Time: 2.8728s
+Total commit 5875887, abort (total/fake) 3124113/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 24.946s Wall Time: 3.1847s
+Total commit 3310273, abort (total/fake) 5689727/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 25.351s Wall Time: 3.2278s
+Total commit 3310972, abort (total/fake) 5689028/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 4.8443s Wall Time: 2.4261s
+Total commit 1880137, abort (total/fake) 1119863/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.651s Wall Time: 2.8871s
+Total commit 5870113, abort (total/fake) 3129887/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.375s Wall Time: 2.872s
+Total commit 2055582, abort (total/fake) 2944418/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 843.78s Wall Time: 20.469s
+Total commit 35321755, abort (total/fake) 13678245/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2544s Wall Time: 30.904s
+Total commit 71415085, abort (total/fake) 25584915/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2534s Wall Time: 30.653s
+Total commit 30688214, abort (total/fake) 66311786/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.474s Wall Time: 2.884s
+Total commit 5869519, abort (total/fake) 3130481/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.517s Wall Time: 2.6576s
+Total commit 3175025, abort (total/fake) 1824975/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.361s Wall Time: 2.8632s
+Total commit 5870788, abort (total/fake) 3129212/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2578.6s Wall Time: 31.117s
+Total commit 30687606, abort (total/fake) 66312394/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.632s Wall Time: 2.9324s
+Total commit 2055259, abort (total/fake) 2944741/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 807.15s Wall Time: 18.264s
+Total commit 35308036, abort (total/fake) 13691964/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.317s Wall Time: 2.8542s
+Total commit 5867750, abort (total/fake) 3132250/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 805.86s Wall Time: 18.301s
+Total commit 35330776, abort (total/fake) 13669224/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 22.511s Wall Time: 2.8818s
+Total commit 5867155, abort (total/fake) 3132845/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 72.077s Wall Time: 4.7234s
+Total commit 11535342, abort (total/fake) 5464658/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 804.92s Wall Time: 19.786s
+Total commit 35349279, abort (total/fake) 13650721/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 4.8643s Wall Time: 2.4354s
+Total commit 1879946, abort (total/fake) 1120054/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4507s Wall Time: 2.4509s
+Total commit 1040574, abort (total/fake) 959426/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 70.782s Wall Time: 4.6258s
+Total commit 5797876, abort (total/fake) 11202124/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 10.458s Wall Time: 2.6401s
+Total commit 3178309, abort (total/fake) 1821691/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2573.2s Wall Time: 31.16s
+Total commit 71421634, abort (total/fake) 25578366/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 73.748s Wall Time: 4.8235s
+Total commit 11536629, abort (total/fake) 5463371/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.401s Wall Time: 2.8695s
+Total commit 2055616, abort (total/fake) 2944384/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2657.3s Wall Time: 32.121s
+Total commit 71416512, abort (total/fake) 25583488/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4432s Wall Time: 2.4434s
+Total commit 1040608, abort (total/fake) 959392/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2406.3s Wall Time: 30.95s
+Total commit 71381557, abort (total/fake) 25618443/0
+
+Start testing TransMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 11.68s Wall Time: 2.9537s
+Total commit 2055820, abort (total/fake) 2944180/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 71.026s Wall Time: 4.6209s
+Total commit 5801945, abort (total/fake) 11198055/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 809.53s Wall Time: 18.584s
+Total commit 35322126, abort (total/fake) 13677874/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 72.127s Wall Time: 4.7258s
+Total commit 11541987, abort (total/fake) 5458013/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4458s Wall Time: 2.4464s
+Total commit 1040716, abort (total/fake) 959284/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 68.941s Wall Time: 4.5321s
+Total commit 5800333, abort (total/fake) 11199667/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2243s Wall Time: 29.565s
+Total commit 30684103, abort (total/fake) 66315897/0
+
+Start testing TransMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 5.0471s Wall Time: 2.5272s
+Total commit 1880251, abort (total/fake) 1119749/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 69.116s Wall Time: 4.5006s
+Total commit 5798227, abort (total/fake) 11201773/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4481s Wall Time: 2.4486s
+Total commit 1039661, abort (total/fake) 960339/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 25.257s Wall Time: 3.23s
+Total commit 3310067, abort (total/fake) 5689933/0
+
+Start testing TransMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.2993s Wall Time: 2.2995s
+Total commit 1040934, abort (total/fake) 959066/0
+
+Start testing TransMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 25.182s Wall Time: 3.2325s
+Total commit 3308906, abort (total/fake) 5691094/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 765.27s Wall Time: 17.668s
+Total commit 35341124, abort (total/fake) 13658876/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 69.58s Wall Time: 4.5651s
+Total commit 11542848, abort (total/fake) 5457152/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 776.47s Wall Time: 17.903s
+Total commit 35330878, abort (total/fake) 13669122/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 73.479s Wall Time: 4.789s
+Total commit 11534309, abort (total/fake) 5465691/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 71.685s Wall Time: 4.6945s
+Total commit 11537274, abort (total/fake) 5462726/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 807.01s Wall Time: 18.489s
+Total commit 35338015, abort (total/fake) 13661985/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 823.68s Wall Time: 19.912s
+Total commit 35333947, abort (total/fake) 13666053/0
+
+Start testing TransMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 839.2s Wall Time: 18.738s
+Total commit 35336287, abort (total/fake) 13663713/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 71.136s Wall Time: 4.6409s
+Total commit 5797111, abort (total/fake) 11202889/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2586s Wall Time: 31.346s
+Total commit 30693735, abort (total/fake) 66306265/0
+
+Start testing TransMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2559.9s Wall Time: 31.235s
+Total commit 30695126, abort (total/fake) 66304874/0
+
+Start testing TransMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 68.734s Wall Time: 4.487s
+Total commit 5798939, abort (total/fake) 11201061/0
+

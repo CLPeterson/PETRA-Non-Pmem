@@ -1,0 +1,28 @@
+Transaction Size 1 33 insertions 33 deletions
+1 threads 2.00872 time 50725.0 commits 49275.0 aborts 0.0 spurious 25274.765029075133 ops per sec
+
+
+Transaction Size 1 33 insertions 33 deletions
+2 threads 2.91918 time 100848.4 commits 99151.6 aborts 0.0 spurious 34553.13899611229 ops per sec
+
+
+Transaction Size 1 33 insertions 33 deletions
+4 threads 3.1132 time 200766.0 commits 199234.0 aborts 0.0 spurious 64490.33172247972 ops per sec
+
+
+Transaction Size 1 33 insertions 33 deletions
+8 threads 3.158359999999999 time 400943.4 commits 399056.6 aborts 0.0 spurious 126947.66882231386 ops per sec
+
+
+Transaction Size 1 33 insertions 33 deletions
+16 threads 3.29836 time 800785.8 commits 799214.2 aborts 0.0 spurious 242791.1159138227 ops per sec
+
+
+Transaction Size 1 33 insertions 33 deletions
+48 threads 4.04296 time 2401910.2 commits 2398089.8 aborts 0.0 spurious 594105.8241794086 ops per sec
+
+
+Transaction Size 1 33 insertions 33 deletions
+96 threads 4.863640000000001 time 4799946.0 commits 4800054.0 aborts 0.0 spurious 986917.5118471828 ops per sec
+
+

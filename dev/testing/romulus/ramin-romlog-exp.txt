@@ -1,0 +1,90 @@
+This benchmark is going to take about 0.266667 hours to complete
+
+----- Sets Benchmark   numElements=1000   ratio=100%   threads=1   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 350805      delta = 0%   min = 348921   max = 350914
+
+----- Sets Benchmark   numElements=1000   ratio=100%   threads=2   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 362949      delta = 12%   min = 331113   max = 376320
+
+----- Sets Benchmark   numElements=1000   ratio=100%   threads=4   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 254762      delta = 2%   min = 249315   max = 256733
+
+----- Sets Benchmark   numElements=1000   ratio=100%   threads=8   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 283813      delta = 1%   min = 282813   max = 287304
+
+----- Sets Benchmark   numElements=1000   ratio=100%   threads=16   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 296222      delta = 0%   min = 295603   max = 297569
+
+----- Sets Benchmark   numElements=1000   ratio=100%   threads=24   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 318283      delta = 0%   min = 316706   max = 319880
+
+----- Sets Benchmark   numElements=1000   ratio=100%   threads=48   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 330937      delta = 2%   min = 327890   max = 334699
+
+----- Sets Benchmark   numElements=1000   ratio=100%   threads=96   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 257065      delta = 0%   min = 255383   max = 257344
+
+----- Sets Benchmark   numElements=1000   ratio=0%   threads=1   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 1351556      delta = 0%   min = 1346570   max = 1359273
+
+----- Sets Benchmark   numElements=1000   ratio=0%   threads=2   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 2733473      delta = 0%   min = 2733169   max = 2734612
+
+----- Sets Benchmark   numElements=1000   ratio=0%   threads=4   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 5386175      delta = 1%   min = 5316928   max = 5389495
+
+----- Sets Benchmark   numElements=1000   ratio=0%   threads=8   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 10286309      delta = 0%   min = 10275124   max = 10290113
+
+----- Sets Benchmark   numElements=1000   ratio=0%   threads=16   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 20184841      delta = 0%   min = 20173937   max = 20212383
+
+----- Sets Benchmark   numElements=1000   ratio=0%   threads=24   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 30291227      delta = 0%   min = 30278578   max = 30301623
+
+----- Sets Benchmark   numElements=1000   ratio=0%   threads=48   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 51678330      delta = 0%   min = 51604116   max = 51758736
+
+----- Sets Benchmark   numElements=1000   ratio=0%   threads=96   runs=3   length=20s -----
+##### RomulusLog-LinkedListSet #####  
+Ops/sec = 68791994      delta = 0%   min = 68787747   max = 68830342
+
+
+Results in ops per second   numRuns=3,  length=20s 
+
+Number of elements: 1000
+Ratio 100%
+Threads
+1, 350805, 
+2, 362949, 
+4, 254762, 
+8, 283813, 
+16, 296222, 
+24, 318283, 
+48, 330937, 
+96, 257065, 
+Ratio 0%
+Threads
+1, 1351556, 
+2, 2733473, 
+4, 5386175, 
+8, 10286309, 
+16, 20184841, 
+24, 30291227, 
+48, 51678330, 
+96, 68791994, 

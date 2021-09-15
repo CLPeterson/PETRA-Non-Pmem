@@ -1,0 +1,3 @@
+Start testing RomulusTMLinkedListSet with 4 threads 100000 iterations 16 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 43.778s Wall Time: 11.023s
+Total commit 1, abort (total/fake) 399999/0

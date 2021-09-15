@@ -1,0 +1,4 @@
+Transaction Size 1 50 insertions 50 deletions
+1 threads 0.030957000000000002 time 5042.6 commits 4957.4 aborts 0.0 spurious 16289.046096197952 ops per sec
+
+

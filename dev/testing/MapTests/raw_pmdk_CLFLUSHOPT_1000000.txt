@@ -1,0 +1,560 @@
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.47821s Wall Time: 0.47823s
+Total commit 615477, abort (total/fake) 384523/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 821.73s Wall Time: 549.11s
+Total commit 13426796, abort (total/fake) 82573204/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.789s Wall Time: 11.204s
+Total commit 2555248, abort (total/fake) 1444752/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 84.75s Wall Time: 44.667s
+Total commit 11116341, abort (total/fake) 4883659/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.999s Wall Time: 11.252s
+Total commit 2554333, abort (total/fake) 1445667/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.1525s Wall Time: 4.9262s
+Total commit 517077, abort (total/fake) 1482923/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 820.11s Wall Time: 547.66s
+Total commit 13428698, abort (total/fake) 82571302/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 20.875s Wall Time: 10.875s
+Total commit 2553703, abort (total/fake) 1446297/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 282.93s Wall Time: 159.2s
+Total commit 35445023, abort (total/fake) 12554977/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.43399s Wall Time: 0.43398s
+Total commit 615286, abort (total/fake) 384714/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 820.47s Wall Time: 550.97s
+Total commit 13433092, abort (total/fake) 82566908/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.6357s Wall Time: 5.1994s
+Total commit 517643, abort (total/fake) 1482357/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.5641s Wall Time: 5.175s
+Total commit 516623, abort (total/fake) 1483377/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 80.886s Wall Time: 41.944s
+Total commit 11120853, abort (total/fake) 4879147/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 831.99s Wall Time: 553.61s
+Total commit 13429315, abort (total/fake) 82570685/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 283.79s Wall Time: 159.6s
+Total commit 35456161, abort (total/fake) 12543839/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 41.428s Wall Time: 25.44s
+Total commit 831865, abort (total/fake) 3168135/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 723.08s Wall Time: 324.92s
+Total commit 6864338, abort (total/fake) 41135662/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.2548s Wall Time: 4.9471s
+Total commit 517727, abort (total/fake) 1482273/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.43359s Wall Time: 0.4336s
+Total commit 616257, abort (total/fake) 383743/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.328s Wall Time: 48.586s
+Total commit 1386562, abort (total/fake) 6613438/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 283.61s Wall Time: 159.38s
+Total commit 35466497, abort (total/fake) 12533503/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 41.78s Wall Time: 25.478s
+Total commit 832021, abort (total/fake) 3167979/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.835s Wall Time: 11.299s
+Total commit 2554959, abort (total/fake) 1445041/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.4593s Wall Time: 5.0598s
+Total commit 516603, abort (total/fake) 1483397/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.263s Wall Time: 11.082s
+Total commit 2557924, abort (total/fake) 1442076/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 20.863s Wall Time: 10.827s
+Total commit 2556490, abort (total/fake) 1443510/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 161.87s Wall Time: 96.221s
+Total commit 2481611, abort (total/fake) 13518389/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 42.179s Wall Time: 26.011s
+Total commit 830371, abort (total/fake) 3169629/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 160.79s Wall Time: 95.02s
+Total commit 2483096, abort (total/fake) 13516904/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3448s Wall Time: 1.5921s
+Total commit 1244793, abort (total/fake) 755207/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 36.017s Wall Time: 18.468s
+Total commit 5312882, abort (total/fake) 2687118/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.009s Wall Time: 10.83s
+Total commit 2555225, abort (total/fake) 1444775/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3684s Wall Time: 1.6093s
+Total commit 1248004, abort (total/fake) 751996/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 719.84s Wall Time: 324.01s
+Total commit 6859435, abort (total/fake) 41140565/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4112s Wall Time: 2.4112s
+Total commit 310202, abort (total/fake) 689798/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 160.71s Wall Time: 95.4s
+Total commit 2481445, abort (total/fake) 13518555/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 41.004s Wall Time: 25.08s
+Total commit 831475, abort (total/fake) 3168525/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.47709s Wall Time: 0.4771s
+Total commit 615374, abort (total/fake) 384626/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 280.87s Wall Time: 158.32s
+Total commit 35458335, abort (total/fake) 12541665/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 831.62s Wall Time: 550.73s
+Total commit 13432654, abort (total/fake) 82567346/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 526.98s Wall Time: 313.9s
+Total commit 72266164, abort (total/fake) 23733836/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 42.105s Wall Time: 21.915s
+Total commit 5306299, abort (total/fake) 2693701/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 283.34s Wall Time: 159.45s
+Total commit 35462582, abort (total/fake) 12537418/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 818.21s Wall Time: 545.37s
+Total commit 13427492, abort (total/fake) 82572508/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 527.17s Wall Time: 313.86s
+Total commit 72280460, abort (total/fake) 23719540/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 281.56s Wall Time: 157.56s
+Total commit 35473582, abort (total/fake) 12526418/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 280.44s Wall Time: 157.69s
+Total commit 35459862, abort (total/fake) 12540138/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.885s Wall Time: 11.318s
+Total commit 2553049, abort (total/fake) 1446951/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.443s Wall Time: 1.6669s
+Total commit 1247624, abort (total/fake) 752376/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 283.47s Wall Time: 159.28s
+Total commit 35441250, abort (total/fake) 12558750/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 282.57s Wall Time: 159.45s
+Total commit 35461397, abort (total/fake) 12538603/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 41.012s Wall Time: 25.145s
+Total commit 832142, abort (total/fake) 3167858/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.211s Wall Time: 48.019s
+Total commit 1389101, abort (total/fake) 6610899/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 523.25s Wall Time: 311.76s
+Total commit 72232962, abort (total/fake) 23767038/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.3905s Wall Time: 5.0263s
+Total commit 517194, abort (total/fake) 1482806/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 87.843s Wall Time: 45.742s
+Total commit 11118905, abort (total/fake) 4881095/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 284.66s Wall Time: 160.36s
+Total commit 35471973, abort (total/fake) 12528027/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 735.34s Wall Time: 329.01s
+Total commit 6866904, abort (total/fake) 41133096/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.181s Wall Time: 10.936s
+Total commit 2552392, abort (total/fake) 1447608/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 833.56s Wall Time: 556.14s
+Total commit 13437051, abort (total/fake) 82562949/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 736.52s Wall Time: 328.61s
+Total commit 6863866, abort (total/fake) 41136134/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 523.62s Wall Time: 312.58s
+Total commit 72232102, abort (total/fake) 23767898/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 21.923s Wall Time: 11.342s
+Total commit 2556394, abort (total/fake) 1443606/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 42.503s Wall Time: 21.932s
+Total commit 5310820, abort (total/fake) 2689180/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 722.37s Wall Time: 324.1s
+Total commit 6865072, abort (total/fake) 41134928/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 724.7s Wall Time: 326.23s
+Total commit 6863625, abort (total/fake) 41136375/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 522.06s Wall Time: 311.98s
+Total commit 72261822, abort (total/fake) 23738178/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 40.683s Wall Time: 24.953s
+Total commit 832120, abort (total/fake) 3167880/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.4913s Wall Time: 5.131s
+Total commit 518169, abort (total/fake) 1481831/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 818.63s Wall Time: 545.25s
+Total commit 13428604, abort (total/fake) 82571396/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.334s Wall Time: 4.9662s
+Total commit 517041, abort (total/fake) 1482959/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.9365s Wall Time: 5.404s
+Total commit 518214, abort (total/fake) 1481786/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.629s Wall Time: 48.331s
+Total commit 1386992, abort (total/fake) 6613008/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4136s Wall Time: 2.4136s
+Total commit 310168, abort (total/fake) 689832/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 523.66s Wall Time: 312.84s
+Total commit 72249374, abort (total/fake) 23750626/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 7.2471s Wall Time: 4.9429s
+Total commit 516496, abort (total/fake) 1483504/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 40.557s Wall Time: 24.856s
+Total commit 831311, abort (total/fake) 3168689/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.46622s Wall Time: 0.46624s
+Total commit 614170, abort (total/fake) 385830/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 818.7s Wall Time: 547.73s
+Total commit 13429746, abort (total/fake) 82570254/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 519.18s Wall Time: 310.49s
+Total commit 72257793, abort (total/fake) 23742207/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 526.29s Wall Time: 314.21s
+Total commit 72263464, abort (total/fake) 23736536/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3337s Wall Time: 1.5935s
+Total commit 1246691, abort (total/fake) 753309/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3301s Wall Time: 1.5903s
+Total commit 1245175, abort (total/fake) 754825/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 42.036s Wall Time: 25.818s
+Total commit 833356, abort (total/fake) 3166644/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 814.48s Wall Time: 544.4s
+Total commit 13432553, abort (total/fake) 82567447/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 41.537s Wall Time: 25.547s
+Total commit 830667, abort (total/fake) 3169333/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.47651s Wall Time: 0.47652s
+Total commit 616153, abort (total/fake) 383847/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3836s Wall Time: 1.6249s
+Total commit 1247190, abort (total/fake) 752810/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.5417s Wall Time: 2.5418s
+Total commit 310396, abort (total/fake) 689604/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 160.19s Wall Time: 93.549s
+Total commit 2481738, abort (total/fake) 13518262/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.381s Wall Time: 2.381s
+Total commit 310331, abort (total/fake) 689669/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.3682s Wall Time: 2.3682s
+Total commit 310334, abort (total/fake) 689666/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 88.949s Wall Time: 46.424s
+Total commit 11129197, abort (total/fake) 4870803/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.3476s Wall Time: 1.6002s
+Total commit 1247367, abort (total/fake) 752633/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 43.576s Wall Time: 22.401s
+Total commit 5303174, abort (total/fake) 2696826/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 525.29s Wall Time: 313.65s
+Total commit 72265357, abort (total/fake) 23734643/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 44.114s Wall Time: 22.542s
+Total commit 5305777, abort (total/fake) 2694223/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 82.554s Wall Time: 43.334s
+Total commit 11121655, abort (total/fake) 4878345/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 43.12s Wall Time: 22.234s
+Total commit 5303798, abort (total/fake) 2696202/0
+
+Start testing RomulusTMHashMap with 4 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 39.961s Wall Time: 24.57s
+Total commit 831049, abort (total/fake) 3168951/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.41032s Wall Time: 0.4103s
+Total commit 615508, abort (total/fake) 384492/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.5502s Wall Time: 2.5502s
+Total commit 310134, abort (total/fake) 689866/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.71s Wall Time: 49.345s
+Total commit 1386599, abort (total/fake) 6613401/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 161.12s Wall Time: 94.267s
+Total commit 2482917, abort (total/fake) 13517083/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 727.17s Wall Time: 326.53s
+Total commit 6861209, abort (total/fake) 41138791/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.5342s Wall Time: 1.7181s
+Total commit 1246785, abort (total/fake) 753215/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 162.07s Wall Time: 95.335s
+Total commit 2481062, abort (total/fake) 13518938/0
+
+Start testing RomulusTMHashMap with 96 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 524.29s Wall Time: 313.42s
+Total commit 72258036, abort (total/fake) 23741964/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 718.32s Wall Time: 323.78s
+Total commit 6864170, abort (total/fake) 41135830/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 42.231s Wall Time: 21.907s
+Total commit 5300814, abort (total/fake) 2699186/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.3835s Wall Time: 2.3835s
+Total commit 309945, abort (total/fake) 690055/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 84.553s Wall Time: 44.38s
+Total commit 11133795, abort (total/fake) 4866205/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 88.711s Wall Time: 46.229s
+Total commit 11123138, abort (total/fake) 4876862/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 83.983s Wall Time: 44.594s
+Total commit 11121767, abort (total/fake) 4878233/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 161.08s Wall Time: 93.922s
+Total commit 2483022, abort (total/fake) 13516978/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 87.55s Wall Time: 45.842s
+Total commit 11122948, abort (total/fake) 4877052/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 726.2s Wall Time: 326s
+Total commit 6862931, abort (total/fake) 41137069/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.4031s Wall Time: 2.4031s
+Total commit 310473, abort (total/fake) 689527/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.47661s Wall Time: 0.47663s
+Total commit 614842, abort (total/fake) 385158/0
+
+Start testing RomulusTMHashMap with 48 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 717.4s Wall Time: 323.64s
+Total commit 6861502, abort (total/fake) 41138498/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.901s Wall Time: 49.044s
+Total commit 1386010, abort (total/fake) 6613990/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.277s Wall Time: 48.697s
+Total commit 1387885, abort (total/fake) 6612115/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.4877s Wall Time: 1.6878s
+Total commit 1247046, abort (total/fake) 752954/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.3866s Wall Time: 2.3866s
+Total commit 310062, abort (total/fake) 689938/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 87.134s Wall Time: 45.745s
+Total commit 11120763, abort (total/fake) 4879237/0
+
+Start testing RomulusTMHashMap with 2 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 2.4507s Wall Time: 1.6717s
+Total commit 1246553, abort (total/fake) 753447/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 162.51s Wall Time: 96.279s
+Total commit 2481232, abort (total/fake) 13518768/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 2.5385s Wall Time: 2.5385s
+Total commit 309447, abort (total/fake) 690553/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 161.04s Wall Time: 93.572s
+Total commit 2484770, abort (total/fake) 13515230/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 43.98s Wall Time: 22.551s
+Total commit 5306532, abort (total/fake) 2693468/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 42.716s Wall Time: 22.126s
+Total commit 5306014, abort (total/fake) 2693986/0
+
+Start testing RomulusTMHashMap with 16 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 160.55s Wall Time: 95.141s
+Total commit 2480546, abort (total/fake) 13519454/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 42.61s Wall Time: 22.006s
+Total commit 5303669, abort (total/fake) 2696331/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.47256s Wall Time: 0.47257s
+Total commit 614157, abort (total/fake) 385843/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.243s Wall Time: 48.411s
+Total commit 1386378, abort (total/fake) 6613622/0
+
+Start testing RomulusTMHashMap with 1 threads 1000000 iterations 1 operations 1000000 unique keys 8% insert 2% delete.
+CPU Time: 0.47309s Wall Time: 0.47311s
+Total commit 614672, abort (total/fake) 385328/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.184s Wall Time: 48.158s
+Total commit 1388376, abort (total/fake) 6611624/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.976s Wall Time: 49.143s
+Total commit 1387078, abort (total/fake) 6612922/0
+
+Start testing RomulusTMHashMap with 8 threads 1000000 iterations 1 operations 1000000 unique keys 70% insert 2% delete.
+CPU Time: 81.855s Wall Time: 48.589s
+Total commit 1386880, abort (total/fake) 6613120/0
+

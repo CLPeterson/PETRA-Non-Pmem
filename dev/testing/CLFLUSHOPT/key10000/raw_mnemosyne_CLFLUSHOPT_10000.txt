@@ -1,0 +1,198 @@
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 1 threads 100000 iterations 1 operations 10000 unique keys 33% insert 33% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 81.964s Wall Time: 81.964s
+Total commit 50748, abort (total/fake) 49252/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 31 threads 100000 iterations 1 operations 10000 unique keys 15% insert 5% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 10128s Wall Time: 368.18s
+Total commit 2088360, abort (total/fake) 1011640/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 2 threads 100000 iterations 1 operations 10000 unique keys 15% insert 5% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 239.58s Wall Time: 120.14s
+Total commit 130110, abort (total/fake) 69890/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 16 threads 100000 iterations 1 operations 10000 unique keys 33% insert 33% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 7534.9s Wall Time: 477.29s
+Total commit 800616, abort (total/fake) 799384/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 1 threads 100000 iterations 1 operations 10000 unique keys 50% insert 50% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 81.211s Wall Time: 81.211s
+Total commit 49942, abort (total/fake) 50058/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 2 threads 100000 iterations 1 operations 10000 unique keys 33% insert 33% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 192.03s Wall Time: 96.159s
+Total commit 100502, abort (total/fake) 99498/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 2 threads 100000 iterations 1 operations 10000 unique keys 50% insert 50% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 214.63s Wall Time: 107.58s
+Total commit 100087, abort (total/fake) 99913/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 8 threads 100000 iterations 1 operations 10000 unique keys 33% insert 33% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1763.4s Wall Time: 222.01s
+Total commit 399879, abort (total/fake) 400121/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 8 threads 100000 iterations 1 operations 10000 unique keys 50% insert 50% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 2523.9s Wall Time: 320.16s
+Total commit 399296, abort (total/fake) 400704/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 24 threads 100000 iterations 1 operations 10000 unique keys 33% insert 33% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 22808s Wall Time: 997.52s
+Total commit 1201866, abort (total/fake) 1198134/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 24 threads 100000 iterations 1 operations 10000 unique keys 15% insert 5% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 7280.2s Wall Time: 312.33s
+Total commit 1612892, abort (total/fake) 787108/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 31 threads 100000 iterations 1 operations 10000 unique keys 50% insert 50% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 53171s Wall Time: 2046.6s
+Total commit 1545730, abort (total/fake) 1554270/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 4 threads 100000 iterations 1 operations 10000 unique keys 50% insert 50% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 676.64s Wall Time: 171.38s
+Total commit 200139, abort (total/fake) 199861/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 16 threads 100000 iterations 1 operations 10000 unique keys 15% insert 5% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 3355.5s Wall Time: 213.05s
+Total commit 1075486, abort (total/fake) 524514/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 24 threads 100000 iterations 1 operations 10000 unique keys 50% insert 50% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 31822s Wall Time: 1394.6s
+Total commit 1196577, abort (total/fake) 1203423/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 8 threads 100000 iterations 1 operations 10000 unique keys 15% insert 5% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 1244.7s Wall Time: 157.51s
+Total commit 536723, abort (total/fake) 263277/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 4 threads 100000 iterations 1 operations 10000 unique keys 33% insert 33% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 529.24s Wall Time: 133.8s
+Total commit 200687, abort (total/fake) 199313/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 1 threads 100000 iterations 1 operations 10000 unique keys 15% insert 5% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 110.32s Wall Time: 110.32s
+Total commit 63919, abort (total/fake) 36081/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 31 threads 100000 iterations 1 operations 10000 unique keys 33% insert 33% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 31004s Wall Time: 1218.4s
+Total commit 1548000, abort (total/fake) 1552000/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 16 threads 100000 iterations 1 operations 10000 unique keys 50% insert 50% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 11414s Wall Time: 724.11s
+Total commit 797935, abort (total/fake) 802065/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 1 threads 100000 iterations 1 operations 10000 unique keys 33% insert 33% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 81.126s Wall Time: 81.126s
+Total commit 50566, abort (total/fake) 49434/0
+
+file = /dev/shm/psegments/segment_table, size = 24576, size_of_pages = 24576 
+file = /dev/shm/psegments/0.5102196, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/1.5102200, size = 4096, size_of_pages = 4096 
+file = /dev/shm/psegments/2.0, size = 536936448, size_of_pages = 536936448 
+Start testing RomulusTMLinkedListSet with 4 threads 100000 iterations 1 operations 10000 unique keys 15% insert 5% delete.
+file = /dev/shm/psegments/3.0, size = 8589934592, size_of_pages = 8589934592 
+CPU Time: 539.37s Wall Time: 136.85s
+Total commit 265394, abort (total/fake) 134606/0
+

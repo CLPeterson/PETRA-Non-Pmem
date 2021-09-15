@@ -1,0 +1,113 @@
+RomulusLog: Recovery from MUTATING...
+Start testing RomulusTMLinkedListSet with 2 threads 100000 iterations 4 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 10.575s Wall Time: 5.3172s
+Total commit 12554, abort (total/fake) 187446/0
+
+Start testing RomulusTMLinkedListSet with 4 threads 100000 iterations 2 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 32.578s Wall Time: 8.1916s
+Total commit 100167, abort (total/fake) 299833/0
+
+Start testing RomulusTMLinkedListSet with 4 threads 100000 iterations 8 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 43.475s Wall Time: 10.944s
+Total commit 1601, abort (total/fake) 398399/0
+
+Start testing RomulusTMLinkedListSet with 8 threads 100000 iterations 16 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 180.06s Wall Time: 22.608s
+Total commit 12, abort (total/fake) 799988/0
+
+Start testing RomulusTMLinkedListSet with 16 threads 100000 iterations 4 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 707.39s Wall Time: 44.31s
+Total commit 100360, abort (total/fake) 1499640/0
+
+Start testing RomulusTMLinkedListSet with 96 threads 100000 iterations 8 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 33754s Wall Time: 352.04s
+Total commit 37497, abort (total/fake) 9562503/0
+
+Start testing RomulusTMLinkedListSet with 2 threads 100000 iterations 16 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 11.411s Wall Time: 5.7058s
+Total commit 3, abort (total/fake) 199997/0
+
+Start testing RomulusTMLinkedListSet with 2 threads 100000 iterations 8 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 11.468s Wall Time: 5.7374s
+Total commit 750, abort (total/fake) 199250/0
+
+Start testing RomulusTMLinkedListSet with 1 threads 100000 iterations 8 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 2.3375s Wall Time: 2.3375s
+Total commit 393, abort (total/fake) 99607/0
+
+Start testing RomulusTMLinkedListSet with 1 threads 100000 iterations 2 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 1.8251s Wall Time: 1.8252s
+Total commit 24876, abort (total/fake) 75124/0
+
+Start testing RomulusTMLinkedListSet with 1 threads 100000 iterations 16 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 2.4067s Wall Time: 2.4067s
+Total commit 2, abort (total/fake) 99998/0
+
+Start testing RomulusTMLinkedListSet with 96 threads 100000 iterations 2 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 25991s Wall Time: 270.95s
+Total commit 2401728, abort (total/fake) 7198272/0
+
+Start testing RomulusTMLinkedListSet with 8 threads 100000 iterations 2 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 134.01s Wall Time: 16.93s
+Total commit 200301, abort (total/fake) 599699/0
+
+Start testing RomulusTMLinkedListSet with 96 threads 100000 iterations 16 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 33695s Wall Time: 351.65s
+Total commit 143, abort (total/fake) 9599857/0
+
+Start testing RomulusTMLinkedListSet with 1 threads 100000 iterations 4 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 2.2713s Wall Time: 2.2713s
+Total commit 6235, abort (total/fake) 93765/0
+
+Start testing RomulusTMLinkedListSet with 96 threads 100000 iterations 4 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 32081s Wall Time: 334.43s
+Total commit 600361, abort (total/fake) 8999639/0
+
+Start testing RomulusTMLinkedListSet with 8 threads 100000 iterations 8 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 180.45s Wall Time: 22.613s
+Total commit 3112, abort (total/fake) 796888/0
+
+Start testing RomulusTMLinkedListSet with 48 threads 100000 iterations 16 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 8266.4s Wall Time: 172.66s
+Total commit 71, abort (total/fake) 4799929/0
+
+Start testing RomulusTMLinkedListSet with 48 threads 100000 iterations 8 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 8263.6s Wall Time: 172.34s
+Total commit 18783, abort (total/fake) 4781217/0
+
+Start testing RomulusTMLinkedListSet with 16 threads 100000 iterations 8 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 752.36s Wall Time: 47.195s
+Total commit 6264, abort (total/fake) 1593736/0
+
+Start testing RomulusTMLinkedListSet with 2 threads 100000 iterations 2 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 7.9227s Wall Time: 4.0125s
+Total commit 49779, abort (total/fake) 150221/0
+
+Start testing RomulusTMLinkedListSet with 16 threads 100000 iterations 16 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 753.97s Wall Time: 47.296s
+Total commit 23, abort (total/fake) 1599977/0
+
+Start testing RomulusTMLinkedListSet with 8 threads 100000 iterations 4 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 168.78s Wall Time: 21.227s
+Total commit 50138, abort (total/fake) 749862/0
+
+Start testing RomulusTMLinkedListSet with 48 threads 100000 iterations 2 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 6448.5s Wall Time: 134.35s
+Total commit 1198914, abort (total/fake) 3601086/0
+
+Start testing RomulusTMLinkedListSet with 4 threads 100000 iterations 16 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 43.718s Wall Time: 11.029s
+Total commit 2, abort (total/fake) 399998/0
+
+Start testing RomulusTMLinkedListSet with 4 threads 100000 iterations 4 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 40.521s Wall Time: 10.176s
+Total commit 24880, abort (total/fake) 375120/0
+
+Start testing RomulusTMLinkedListSet with 48 threads 100000 iterations 4 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 7808.5s Wall Time: 162.72s
+Total commit 300563, abort (total/fake) 4499437/0
+
+Start testing RomulusTMLinkedListSet with 16 threads 100000 iterations 2 operations 10000 unique keys 50% insert 50% delete.
+CPU Time: 574.35s Wall Time: 35.921s
+Total commit 400738, abort (total/fake) 1199262/0
+
