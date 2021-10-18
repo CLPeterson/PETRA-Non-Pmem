@@ -1,0 +1,17 @@
+# plotting_data3.dat
+# First data block (index 0)
+# X   Y
+  1   2
+  2   3
+
+
+# Second index block (index 1)
+# X   Y
+  3   2
+  4   1
+
+
+# Third index block (index 2)
+# X   Y
+  1   1
+  2   2

@@ -1,0 +1,26 @@
+# First data block (index 0)
+# X   Y
+1 5
+4 10
+8 104
+ 
+
+# Second data block (index 1)
+# X   Y
+1 8
+4 16
+8 88 
+
+
+# Third data block (index 2)
+# X   Y
+1 2
+4 7 
+8 65
+
+ 
+# Fourth data block (index 3)
+# X   Y
+1 13
+4 20
+8 120
