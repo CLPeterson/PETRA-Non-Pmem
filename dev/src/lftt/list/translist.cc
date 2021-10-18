@@ -55,6 +55,12 @@ TransList::~TransList()
         //free(curr);
         //curr = curr->next;
     //}
+   
+    FILE* pfile = fopen("output.txt", "a"); //CORRECTNESS ANNOTATIONS
+
+    fprintf(pfile, "%u ", g_count_commit); //CORRECTNESS ANNOTATIONS
+
+    fclose(pfile); //CORRECTNESS ANNOTATIONS
 }
 
 

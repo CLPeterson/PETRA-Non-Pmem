@@ -70,6 +70,12 @@ public:
         });
   
         printf("Total commit %u, abort (total/fake) %u/0\n", g_count_commit, g_count_abort);
+
+		FILE* pfile = fopen("output.txt", "a"); //CORRECTNESS ANNOTATIONS
+
+    	fprintf(pfile, "%u ", g_count_commit); //CORRECTNESS ANNOTATIONS
+
+    	fclose(pfile); //CORRECTNESS ANNOTATIONS
     }
 
     void Init()

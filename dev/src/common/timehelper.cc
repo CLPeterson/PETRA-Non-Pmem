@@ -178,7 +178,7 @@ ScopedTimer::~ScopedTimer()
 
     printf("%s%s\n", m_tag.c_str(), m_showSec ? ToSecond().c_str() : ToString().c_str());
 
-	FILE* pfile = fopen("output.txt", "a"); //CORRECTNESS ANNOTATIONS
+	FILE* pfile = fopen("output.txt", "w"); //CORRECTNESS ANNOTATIONS
 
 	//fprintf(pfile, "%.15lf ", ElapsedCpu()); //CORRECTNESS ANNOTATIONS
 

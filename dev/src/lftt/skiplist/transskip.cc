@@ -1177,6 +1177,12 @@ void transskip_free(trans_skip* l)
     printf("Total commit %u, abort (total/fake) %u/%u\n", g_count_commit, g_count_abort, g_count_fake_abort);
 
     //transskip_print(l);
+
+    FILE* pfile = fopen("output.txt", "a"); //CORRECTNESS ANNOTATIONS
+
+    fprintf(pfile, "%u ", g_count_commit); //CORRECTNESS ANNOTATIONS
+
+    fclose(pfile); //CORRECTNESS ANNOTATIONS
 }
 
 void ResetMetrics(trans_skip* l)

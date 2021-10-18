@@ -232,6 +232,11 @@ ALLOCATOR_PERSISTABLE_ONLY_CODE
 	{
 		printf("Total commit %u, abort (total/fake) %u/%u\n", g_count_commit, g_count_abort, g_count_fake_abort);
 	   
+		FILE* pfile = fopen("output.txt", "a"); //CORRECTNESS ANNOTATIONS
+
+    		fprintf(pfile, "%u ", g_count_commit); //CORRECTNESS ANNOTATIONS
+
+    		fclose(pfile); //CORRECTNESS ANNOTATIONS
 	}
 
 	// TransMap(/*Allocator<Node>* nodeAllocator,*/ Allocator<Desc>* descAllocator, Allocator<NodeDesc>* nodeDescAllocator, uint64_t initalPowerOfTwo, uint64_t numThreads);

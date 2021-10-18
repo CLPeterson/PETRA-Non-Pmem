@@ -64,6 +64,12 @@ TxMdList::~TxMdList()
     std::string prefix;
     Traverse(m_head, NULL, 0, prefix);
     )
+
+    FILE* pfile = fopen("output.txt", "a"); //CORRECTNESS ANNOTATIONS
+
+    fprintf(pfile, "%u ", g_count_commit); //CORRECTNESS ANNOTATIONS
+
+    fclose(pfile); //CORRECTNESS ANNOTATIONS
 }
 
 bool TxMdList::ExecuteOps(Desc* desc)
