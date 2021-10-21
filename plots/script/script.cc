@@ -72,7 +72,7 @@ int main(int argc,char* argv[])
 				num_threads.append("16");
 			} else if (j == 5)
 			{
-				num_threads.append("48");
+				num_threads.append("32");
 			}
 			
 			command_suffix.clear();
