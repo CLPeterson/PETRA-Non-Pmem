@@ -34,7 +34,7 @@ while (x < 2) {
      x = STATS_columns
 }
 
-NUM_ROWS = 4
+NUM_ROWS = 6
 
 x = 0
 while (x < NUM_ROWS) {

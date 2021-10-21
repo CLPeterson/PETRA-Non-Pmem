@@ -51,8 +51,8 @@ int main(int argc,char* argv[])
 			data_structure.append(" 3 ");
 		} 
 
-		for(unsigned int j = 0; j < 4; j++)
-		//for(unsigned int j = 0; j < 6; j++)
+		//for(unsigned int j = 0; j < 4; j++)
+		for(unsigned int j = 0; j < 6; j++)
 		{
 			num_threads.clear();
 			if(j == 0)
